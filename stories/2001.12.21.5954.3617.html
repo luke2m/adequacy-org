@@ -133,13 +133,8 @@
       <img src="/images/10x10trans.gif" width=10 height=2></td>
     </tr>
   </table>
-<script src="http://www.google-analytics.com/urchin.js"
-type="text/javascript">
-</script>
-<script type="text/javascript">
-_uacct = "UA-1092656-1";
-urchinTracker();
-</script>
+<script data-goatcounter="https://adequacy.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 
 <!-- HEADER END -->
 
@@ -310,18 +305,30 @@ In your defense, at least you aren't trying to use Lunix to browse the web.  Usi
 </tr>
 <tr>
 <td><img src="../../images/10x10trans.gif" width=10 height=10></td>
-<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Whenever I had problems with local boards (usually a table deciding to be wider than the screen), they turned out to be well-readable in either "Links", or "Lynx" - two text-only console browsers. Pretty fast.<BR>
-<BR>
-You can use any browser to read any website. Just in some cases you need to help yourself with a trick; the best trick of all is a translation HTTP proxy, which translates the HTML code to the code usable by your browser (stripping problematic tags, or - especially useful for wireless PDAs - stripping all tags and scripts, saving alot of file size and connection time). <BR>
-<BR>
-Some sites tend to be dependent on javascripts. However, if it is really necessary (ie, you want to use a cargo tracking or stock-monitoring website and it has links using javascript only), you can translate the scripts to raw HTML links using site-specific regexps. Feasible when you often use small number of websites whose webmasters hadn't learned about &lt;NOSCRIPT&gt; tag. In case of non-interactive sites, misstating browser's user-agent (ie, by direct editing of the browser's binary file, or by using a headers-altering proxy) sometimes causes the site to return back a text-only version (a feature originally designed for search engines).<BR>
-<BR>
-Designers have the right to design for a specific platforms. However, designers have no right to prevent anyone to help themselves with compatibility problems. If a site doesn't work on any of my browsers, I have full right to make it so, using any available means. If the designer doesn't like it, well, tough luck for him.<BR>
-<BR>
-    -- The Mad Scientist<BR>
-<BR>
-<BR>
-<BR>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Whenever I had problems with local boards (usually a table deciding to be wider than the screen), they turned out to be well-readable in either "Links", or "Lynx" - two text-only console browsers. Pretty fast.
+<BR>
+
+<BR>
+You can use any browser to read any website. Just in some cases you need to help yourself with a trick; the best trick of all is a translation HTTP proxy, which translates the HTML code to the code usable by your browser (stripping problematic tags, or - especially useful for wireless PDAs - stripping all tags and scripts, saving alot of file size and connection time). 
+<BR>
+
+<BR>
+Some sites tend to be dependent on javascripts. However, if it is really necessary (ie, you want to use a cargo tracking or stock-monitoring website and it has links using javascript only), you can translate the scripts to raw HTML links using site-specific regexps. Feasible when you often use small number of websites whose webmasters hadn't learned about &lt;NOSCRIPT&gt; tag. In case of non-interactive sites, misstating browser's user-agent (ie, by direct editing of the browser's binary file, or by using a headers-altering proxy) sometimes causes the site to return back a text-only version (a feature originally designed for search engines).
+<BR>
+
+<BR>
+Designers have the right to design for a specific platforms. However, designers have no right to prevent anyone to help themselves with compatibility problems. If a site doesn't work on any of my browsers, I have full right to make it so, using any available means. If the designer doesn't like it, well, tough luck for him.
+<BR>
+
+<BR>
+    -- The Mad Scientist
+<BR>
+
+<BR>
+
+<BR>
+
+<BR>
 <BR><BR></FONT></td>
 </tr>
 </table>
@@ -362,28 +369,50 @@ Yeah, it's a hassle, but at least I'm not Bill Gates' bitch, right?<BR><BR><BR><
 </tr>
 <tr>
 <td><img src="../../images/10x10trans.gif" width=10 height=10></td>
-<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">You can have both the (however questionable) comfort of Windows and the power of unix (Linux, BSD, Solaris, anything that suits your tastes). Take ssh[1] and log to a unix machine. I was doing that before making a dedicated Linux machine. If you need GUI on unix, you can use xterminal or VNC.<BR>
-<BR>
-Using a LAN, this is also a solution for damage containment for the inherent Windows instability and insecurity. Unixes maintaining the infrastructure (fileserver, database server, backups, firewall[2]), Windows for casual web browsing. I have good experiences with this setup in both home and office environments[3]. Attempts to phase from Windows to Linux on user-level machines are under way[4].<BR>
-<BR>
-Regarding taking the car and driving to the site location... that gets somehow problematic when the site is located overseas.<BR>
-<BR>
-Regarding being Billy's bitch - we all are, to bigger or smaller degree, regardless how we love or hate it. It's a hassle to learn all the things one needs to administer and run unix, but after doing so, it's less hassle than being fulltime Billy's bitch. I admit the transitive phase is painful, but at least for me it was well-worth of that.[5]<BR>
-<BR>
--- The Mad Scientist<BR>
-<BR>
-[1] more secure alternative to telnet<BR>
-<BR>
-[2] I strongly suggest OpenBSD over Linux for firewalls; Linux TCP stack is a mess.<BR>
-<BR>
-[3] Windows are easier to set up but tend to have runtime problems. Unixes are a bitch to set up, but once they run they keep running. I had 4 crashes on 6 machines in last half year; 3 of them were on a single machine and were caused by my own mistake when testing something, the fourth was probably related to a hack attack the machine got under (but the intruder han't got inside; we then found a week of attempts in the logs). Compare this with restarting the NT servers each few days before, not even mentioning the patches.<BR>
-<BR>
-[4] As far, partially successful; StarOffice and KDE Office are promising, the biggest problem is only partial compatibility with Microsoft's proprietary formats. (Solutions underway; probably employing one W2000 machine and a set of scripts, make it acting as a file convertor; you send a .doc document in, the server sends you a .rtf (or other) back.)<BR>
-<BR>
-[5] Still using Windows for less important tasks, most likely Web browsing - I have some additions in MSIE, and wrote a proxy that adds javascripts with functions (ie, popup blockers, or annotators, or a page menu that shows things like server response headers (no more telnet hassles!) and lets me display and edit cookies, run traceroute to a server, and lets me implement any further function I need in very short time) into the downloaded pages, and some advanced functions are dependent on rarely-used nonstandard features of Microsoft's javascript interpreter. I don't care about the "racial purity" of my machines. I don't care much that the browser crashes time to time - important work is done and stored on more stable Linux, the most important files mirrored on another machine over the Net (thus being protected not only against system failure but also against ie. fire). Email is on Linux as well (actually, for years already, on different machine, accessed via SSH - I *never* got infected by Outlook-born virus[6].)<BR>
-<BR>
-[6] ...and it is so simple to protect against Outlook virii; for the office, I employed a small POP3 proxy, which renames the attachments that are executable to nonexecutable. This disables the autorun mechanism for preview-triggered critters, and requires users to save it under original filename before executing, preventing them from running it without knowing so. (Yes, Wise Bill, it was really good idea to disable displaying of extensions by default.)<BR>
-<BR>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">You can have both the (however questionable) comfort of Windows and the power of unix (Linux, BSD, Solaris, anything that suits your tastes). Take ssh[1] and log to a unix machine. I was doing that before making a dedicated Linux machine. If you need GUI on unix, you can use xterminal or VNC.
+<BR>
+
+<BR>
+Using a LAN, this is also a solution for damage containment for the inherent Windows instability and insecurity. Unixes maintaining the infrastructure (fileserver, database server, backups, firewall[2]), Windows for casual web browsing. I have good experiences with this setup in both home and office environments[3]. Attempts to phase from Windows to Linux on user-level machines are under way[4].
+<BR>
+
+<BR>
+Regarding taking the car and driving to the site location... that gets somehow problematic when the site is located overseas.
+<BR>
+
+<BR>
+Regarding being Billy's bitch - we all are, to bigger or smaller degree, regardless how we love or hate it. It's a hassle to learn all the things one needs to administer and run unix, but after doing so, it's less hassle than being fulltime Billy's bitch. I admit the transitive phase is painful, but at least for me it was well-worth of that.[5]
+<BR>
+
+<BR>
+-- The Mad Scientist
+<BR>
+
+<BR>
+[1] more secure alternative to telnet
+<BR>
+
+<BR>
+[2] I strongly suggest OpenBSD over Linux for firewalls; Linux TCP stack is a mess.
+<BR>
+
+<BR>
+[3] Windows are easier to set up but tend to have runtime problems. Unixes are a bitch to set up, but once they run they keep running. I had 4 crashes on 6 machines in last half year; 3 of them were on a single machine and were caused by my own mistake when testing something, the fourth was probably related to a hack attack the machine got under (but the intruder han't got inside; we then found a week of attempts in the logs). Compare this with restarting the NT servers each few days before, not even mentioning the patches.
+<BR>
+
+<BR>
+[4] As far, partially successful; StarOffice and KDE Office are promising, the biggest problem is only partial compatibility with Microsoft's proprietary formats. (Solutions underway; probably employing one W2000 machine and a set of scripts, make it acting as a file convertor; you send a .doc document in, the server sends you a .rtf (or other) back.)
+<BR>
+
+<BR>
+[5] Still using Windows for less important tasks, most likely Web browsing - I have some additions in MSIE, and wrote a proxy that adds javascripts with functions (ie, popup blockers, or annotators, or a page menu that shows things like server response headers (no more telnet hassles!) and lets me display and edit cookies, run traceroute to a server, and lets me implement any further function I need in very short time) into the downloaded pages, and some advanced functions are dependent on rarely-used nonstandard features of Microsoft's javascript interpreter. I don't care about the "racial purity" of my machines. I don't care much that the browser crashes time to time - important work is done and stored on more stable Linux, the most important files mirrored on another machine over the Net (thus being protected not only against system failure but also against ie. fire). Email is on Linux as well (actually, for years already, on different machine, accessed via SSH - I *never* got infected by Outlook-born virus[6].)
+<BR>
+
+<BR>
+[6] ...and it is so simple to protect against Outlook virii; for the office, I employed a small POP3 proxy, which renames the attachments that are executable to nonexecutable. This disables the autorun mechanism for preview-triggered critters, and requires users to save it under original filename before executing, preventing them from running it without knowing so. (Yes, Wise Bill, it was really good idea to disable displaying of extensions by default.)
+<BR>
+
+<BR>
 <BR><BR></FONT></td>
 </tr>
 </table>
@@ -403,7 +432,8 @@ Regarding being Billy's bitch - we all are, to bigger or smaller degree, regardl
 </tr>
 <tr>
 <td><img src="../../images/10x10trans.gif" width=10 height=10></td>
-<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">...the <a href="./2001.10.2.33542.4010.html">LFT</a>?<BR><BR><BR><i>I do, I do, I do<br>--Bikini Kill</i><BR></FONT></td></tr>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">...the <a href="./2001.10.2.33542.4010.html">LFT</a>?<BR><BR><BR><i>I do, I do, I do<br>--Bikini Kill</i><BR></FONT></td>
+</tr>
 </table>
 <BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="15"></a>
 <table cellpadding="2" cellspacing="0" border="0">
@@ -436,7 +466,8 @@ Yes, I am familiar with the issues.
 <BR><BR>
 [2] A friend works as kernel developer for joysticks, mouses, and similar input devices, and is getting free toys from quite many vendors. I think he's in many cases even paid to write the drivers.
 <BR><BR>
-[3] I had certain installation problems myself, with Red Hat 7.1; cost me two evenings. I had a 486 I wanted to install it on (which now serves as a happy firewall and PPP dialout, running over 2 months straight without a reboot and without a single problem). The main cause was lack of experiences. The 486 had no CDROM and no floppy and was rather stripped down. I thought I will be able to install Linux straightforward from a P2 machine, if I'll just exchange the hard drives, install it on a disk, then put the disk into the 486. It worked, the install went straightforward, and after restart it booted up. However, I moved the disk into the 486 machine, switched it on, it started loading the kernel - and it locked up. After a while of thinking I figured out it is Pentium-specific kernel optimizations (same topic as one of local editors had with Mandrake Linux). Yes, the RH7.1 CD has images of 386-compliant kernel and supporting software, but I'd be too ahead. But hey - I have an account now and can post whole articles. So see <a href="./2001.12.25.94449.360.html">here</a> for the whole story.<BR><BR>
+[3] I had certain installation problems myself, with Red Hat 7.1; cost me two evenings. I had a 486 I wanted to install it on (which now serves as a happy firewall and PPP dialout, running over 2 months straight without a reboot and without a single problem). The main cause was lack of experiences. The 486 had no CDROM and no floppy and was rather stripped down. I thought I will be able to install Linux straightforward from a P2 machine, if I'll just exchange the hard drives, install it on a disk, then put the disk into the 486. It worked, the install went straightforward, and after restart it booted up. However, I moved the disk into the 486 machine, switched it on, it started loading the kernel - and it locked up. After a while of thinking I figured out it is Pentium-specific kernel optimizations (same topic as one of local editors had with Mandrake Linux). Yes, the RH7.1 CD has images of 386-compliant kernel and supporting software, but I'd be too ahead. But hey - I have an account now and can post whole articles. So see <a href="./2001.12.25.94449.360.html">here</a> for the whole story.
+<BR><BR>
 [4] I think I can call myself a seasoned professional, and despite that, when it comes to partition resizing, my posterior puckers up. I usually either burn all the data to CD and reformat the disk, or borrow another disk, move data there, reformat/reinstall the first one, then move the data back. (And yes, you have to defragment before partition resizing, if you don't do it the reformat way. If the tool in use hadn't checked or done that itself, it is faulty piece of software. Unless it was mentioned in the documentation, then it is the fault of the user.)
 
 <BR><BR></FONT></td>
@@ -479,21 +510,36 @@ And lest you get any clever ideas about stripping text from the PDFs, they won't
 </tr>
 <tr>
 <td><img src="../../images/10x10trans.gif" width=10 height=10></td>
-<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">More accurately, it is very good to excellent when you need graphically accurate representation, platform-independent fixed form. (The only viable rival is TeX/DVI.) But when you need barebones content, and the form is dependent on what's available on the endpoint, markup languages are the right choice. Also, plaintext is much better choice for automatic indexing and keyword searching.<BR>
-<BR>
-PDF can be converted to text by ie. pdftotext utility from the xpdf package. (Blessed be source code availability[1].)<BR>
-<BR>
-If there is no text inside, it is still possible to use machine-based conversion; if the letters are replaced by images, it is still possible to patch the conversion program, and output a letter for each bitmap[2]. If the whole document will be a single bitmap, still nothing is really lost - you just need to convert PDF to bitmap, then feed it to an OCR program, and voila - you have plaintext version again. Awful lot of hassle, but still possible.<BR>
-<BR>
-Sorry, tough luck, at the end hackers will get what they want anyway, and only the "regular users" will catch the fallout. If they will not ask the hackers to provide them with solutions. <BR>
-<BR>
--- The Mad Scientist<BR>
-<BR>
-[1] The original program had problems with some national characters from CP-1250, which Bill the Wise placed to the area between 0x80 and 0x9F, place that should be reserved for control characters. Because of source code availability, I had the chance to find where it does the charset conversion and patch it there (*very* inelegant way, BTW, but done what I wanted it to). If it would be closed-source commercial application, I would be excrement out of luck; this way it only cost me a Sunday. (Yes, there are "protection" bits in PDF format that are designed to prevent extraction of the text; however, even in closed-source viewer these are usually handled by a single conditional jump. Just another day to deal with that, then it's solved forever. *yawn* I don't understand why I shouldn't be able to read a PDF file over a plaintext terminal from a laptop in my bed; no chance I'll get graphics on that $20 piece of 286 junk, and I am not appealed by spending money on anything "better" when this one does what's required to, and has the ooooold style keyboard that is faaaar better than the modern flat keyboards. Maybe someone here could write an article about why the hell the modern keyboards suck and why I type on one for 8th year and it is going and going and going while the one I wanted to replace it with few years ago lasted few months and then the keys started dying and because the sucking el-cheapo construction it was impossible to desolder and replace them.)<BR>
-<BR>
-[2] Assuming one bitmap per character, constant mapping betweeen bitmaps and characters. If changing issue by issue, it becomes a problem of cracking a simple substitution cipher which is trivial. (Done it once by hand when I had a file in Russian, in unknown encoding. I knew part of it, so it reduced to known-plaintext attack, just finding the remap table.) If more complicated, OCR applies.<BR>
-<BR>
-<BR>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">More accurately, it is very good to excellent when you need graphically accurate representation, platform-independent fixed form. (The only viable rival is TeX/DVI.) But when you need barebones content, and the form is dependent on what's available on the endpoint, markup languages are the right choice. Also, plaintext is much better choice for automatic indexing and keyword searching.
+<BR>
+
+<BR>
+PDF can be converted to text by ie. pdftotext utility from the xpdf package. (Blessed be source code availability[1].)
+<BR>
+
+<BR>
+If there is no text inside, it is still possible to use machine-based conversion; if the letters are replaced by images, it is still possible to patch the conversion program, and output a letter for each bitmap[2]. If the whole document will be a single bitmap, still nothing is really lost - you just need to convert PDF to bitmap, then feed it to an OCR program, and voila - you have plaintext version again. Awful lot of hassle, but still possible.
+<BR>
+
+<BR>
+Sorry, tough luck, at the end hackers will get what they want anyway, and only the "regular users" will catch the fallout. If they will not ask the hackers to provide them with solutions. 
+<BR>
+
+<BR>
+-- The Mad Scientist
+<BR>
+
+<BR>
+[1] The original program had problems with some national characters from CP-1250, which Bill the Wise placed to the area between 0x80 and 0x9F, place that should be reserved for control characters. Because of source code availability, I had the chance to find where it does the charset conversion and patch it there (*very* inelegant way, BTW, but done what I wanted it to). If it would be closed-source commercial application, I would be excrement out of luck; this way it only cost me a Sunday. (Yes, there are "protection" bits in PDF format that are designed to prevent extraction of the text; however, even in closed-source viewer these are usually handled by a single conditional jump. Just another day to deal with that, then it's solved forever. *yawn* I don't understand why I shouldn't be able to read a PDF file over a plaintext terminal from a laptop in my bed; no chance I'll get graphics on that $20 piece of 286 junk, and I am not appealed by spending money on anything "better" when this one does what's required to, and has the ooooold style keyboard that is faaaar better than the modern flat keyboards. Maybe someone here could write an article about why the hell the modern keyboards suck and why I type on one for 8th year and it is going and going and going while the one I wanted to replace it with few years ago lasted few months and then the keys started dying and because the sucking el-cheapo construction it was impossible to desolder and replace them.)
+<BR>
+
+<BR>
+[2] Assuming one bitmap per character, constant mapping betweeen bitmaps and characters. If changing issue by issue, it becomes a problem of cracking a simple substitution cipher which is trivial. (Done it once by hand when I had a file in Russian, in unknown encoding. I knew part of it, so it reduced to known-plaintext attack, just finding the remap table.) If more complicated, OCR applies.
+<BR>
+
+<BR>
+
+<BR>
 <BR><BR></FONT></td>
 </tr>
 </table>
@@ -532,30 +578,54 @@ Sorry, tough luck, at the end hackers will get what they want anyway, and only t
 </tr>
 <tr>
 <td><img src="../../images/10x10trans.gif" width=10 height=10></td>
-<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Back years ago, when the corporations hadn't the technology to make keyboards cheap so they made them good instead, a standard keyboard was a real circuitboard[1], with real holes in whose real pushbuttons were soldered into. Only the cheapest keyboards got the membranes. I bought my first PC-AT keyboard back in between 1991 and 1992. It's FCC ID is FY4404DK-CTW060, for further reference.<BR>
-<BR>
-Then the Progress came. *spit* It became increasingly common that a keyboard was nothing more than a pair of mentioned plastic sheets, and a handful of el-cheapo plastic parts. Yes, it costs (not much though, even inflation-adjusted) less than the keyboards cost back then, but the feel of the keys is awfully "muddy" (I like the 'click' feel - some modern keyboards mimic it with little metal springs but it's just cheating), the keys need to be pressed different way (I like my keyboard reacting 'light', not having to press the key beyond the point of 'click'), and the overall 'feel' of the keyboard is ... blyeah, no comment.<BR>
-<BR>
-When it comes to further customization, modern keyboards aren't worth the cusses spent on them. My old-and-still-working keyboard has two more keys in the cursor area, connected parallel to "esc" and "tab" keys, thus combining all the keys used for selecting from menus in a single area, making it possible to do most of routine select-and-go operations one-handed without waving the hand over the keyboard. (When I have to use other keyboards, I miss the custom keys.) I done it by sawing away piece of the keyboard cover and gluing the two pushbuttons (cannibalized from a deceased keyboard of the same type) on the circuitboard and connecting them to the proper places on the circuitboard.<BR>
-<BR>
-In short, modern keyboards are shit. I hadn't found a keyboard I would be happy with, from the more modern ones. All I seen are fakes, cheats, and poor cheap designs. Phooy.<BR>
-<BR>
-When I want to buy a car, it is common to show me what's under the hood. When I want to buy a keyboard, I hadn't met a shop where they would be able to tell me what construction the keyboard has (I don't bitch that they don't let me to take it apart, but they should at least know what they are selling).<BR>
-<BR>
-Regarding the old vs modern devices - one thing should be noted. I had a handful of hard drives dying on me because of wear. However, I had old Seagate ST disks, 20 and 80 megs (the second was ST4097), that ran without failure until being decommissioned because of obsolescence. (The second one was in service in a scratch-monkey machine I was playing on with dangerous things like viruses, until about an year ago when it was replaced because of noise (not the wear noise - it was noisily buzzing from the very beginning) - after spending last 4-5 years in de facto nonstop run (as I don't like to switch off the computers - I believe a computer has to be ready to serve the very second it is needed).<BR>
-<BR>
-Now tell me that the new computers are better than the old ones. Yes, they have more of computing power. Yes, the disks are bigger. No, they aren't more reliable, nor more durable.<BR>
-<BR>
-...and it is not limited only to keyboards and mouses; my pet peeve are connectors. Back in the Old Times, commmunist connectors had bodies from phenol-formaldehyde resin, with brass pins coated with real silver. 3.5mm jacks had the parts that held the contacts made from fiberglass. Now? The connectors are made from thermoplast that deforms when you attempt to solder on the pins, the pins are coated with fucking nickel that the solder refuses to talk with which prolongs the soldering time which increases the chance of ruining the connectors by moving the pins. Especially sensitive for this are the 3.5mm female jacks, cable version.<BR>
-<BR>
-Progress. Bah.<BR>
-<BR>
-  -- The Mad Scientist<BR>
-<BR>
-<BR>
-[1] Years back, when I was still used to circuitboards from real epoxide-reinforced fiberglass that domestic manufacturers used, I considered the practice of Russians to use cheaper pertinax (phenol-resin reinforced paper) as inferior. Then the Revolution came and the Iron Curtain fell and the markets got flooded by stuff from the Ohsogreat West. Then I dropped my walkman and found the circuitboard broke - because it was the same sucking inferior material as Russians used, and without the Russian defensive-style massive construction. (Luckily only few traces led through the broken part so a piece of wire and a drop of epoxide solved the problem.) I lost my faith that Capitalist electronics has to be better than Communist one; no, it's the same make-it-cheap crap, just with better-looking design. From then I got a lot of gifts (friends know that a piece of deceased electronics that I can take apart is a thing to make me happy for the night I play with it), and done a lot of repairs, and seen things I can't call other than atrocious: Constructions that look like *designed* to wear out (ie, toothed metal bar (with sharp edges) against toothed plastic cog - naturally, it ate a groove to the cog and then the VCR refused to spit the casette out), in order to fail and make it easier to their owners to decide to throw them away and buy new ones. Planned obsolescence, the engine of crapitalism.<BR>
-<BR>
-<BR>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Back years ago, when the corporations hadn't the technology to make keyboards cheap so they made them good instead, a standard keyboard was a real circuitboard[1], with real holes in whose real pushbuttons were soldered into. Only the cheapest keyboards got the membranes. I bought my first PC-AT keyboard back in between 1991 and 1992. It's FCC ID is FY4404DK-CTW060, for further reference.
+<BR>
+
+<BR>
+Then the Progress came. *spit* It became increasingly common that a keyboard was nothing more than a pair of mentioned plastic sheets, and a handful of el-cheapo plastic parts. Yes, it costs (not much though, even inflation-adjusted) less than the keyboards cost back then, but the feel of the keys is awfully "muddy" (I like the 'click' feel - some modern keyboards mimic it with little metal springs but it's just cheating), the keys need to be pressed different way (I like my keyboard reacting 'light', not having to press the key beyond the point of 'click'), and the overall 'feel' of the keyboard is ... blyeah, no comment.
+<BR>
+
+<BR>
+When it comes to further customization, modern keyboards aren't worth the cusses spent on them. My old-and-still-working keyboard has two more keys in the cursor area, connected parallel to "esc" and "tab" keys, thus combining all the keys used for selecting from menus in a single area, making it possible to do most of routine select-and-go operations one-handed without waving the hand over the keyboard. (When I have to use other keyboards, I miss the custom keys.) I done it by sawing away piece of the keyboard cover and gluing the two pushbuttons (cannibalized from a deceased keyboard of the same type) on the circuitboard and connecting them to the proper places on the circuitboard.
+<BR>
+
+<BR>
+In short, modern keyboards are shit. I hadn't found a keyboard I would be happy with, from the more modern ones. All I seen are fakes, cheats, and poor cheap designs. Phooy.
+<BR>
+
+<BR>
+When I want to buy a car, it is common to show me what's under the hood. When I want to buy a keyboard, I hadn't met a shop where they would be able to tell me what construction the keyboard has (I don't bitch that they don't let me to take it apart, but they should at least know what they are selling).
+<BR>
+
+<BR>
+Regarding the old vs modern devices - one thing should be noted. I had a handful of hard drives dying on me because of wear. However, I had old Seagate ST disks, 20 and 80 megs (the second was ST4097), that ran without failure until being decommissioned because of obsolescence. (The second one was in service in a scratch-monkey machine I was playing on with dangerous things like viruses, until about an year ago when it was replaced because of noise (not the wear noise - it was noisily buzzing from the very beginning) - after spending last 4-5 years in de facto nonstop run (as I don't like to switch off the computers - I believe a computer has to be ready to serve the very second it is needed).
+<BR>
+
+<BR>
+Now tell me that the new computers are better than the old ones. Yes, they have more of computing power. Yes, the disks are bigger. No, they aren't more reliable, nor more durable.
+<BR>
+
+<BR>
+...and it is not limited only to keyboards and mouses; my pet peeve are connectors. Back in the Old Times, commmunist connectors had bodies from phenol-formaldehyde resin, with brass pins coated with real silver. 3.5mm jacks had the parts that held the contacts made from fiberglass. Now? The connectors are made from thermoplast that deforms when you attempt to solder on the pins, the pins are coated with fucking nickel that the solder refuses to talk with which prolongs the soldering time which increases the chance of ruining the connectors by moving the pins. Especially sensitive for this are the 3.5mm female jacks, cable version.
+<BR>
+
+<BR>
+Progress. Bah.
+<BR>
+
+<BR>
+  -- The Mad Scientist
+<BR>
+
+<BR>
+
+<BR>
+[1] Years back, when I was still used to circuitboards from real epoxide-reinforced fiberglass that domestic manufacturers used, I considered the practice of Russians to use cheaper pertinax (phenol-resin reinforced paper) as inferior. Then the Revolution came and the Iron Curtain fell and the markets got flooded by stuff from the Ohsogreat West. Then I dropped my walkman and found the circuitboard broke - because it was the same sucking inferior material as Russians used, and without the Russian defensive-style massive construction. (Luckily only few traces led through the broken part so a piece of wire and a drop of epoxide solved the problem.) I lost my faith that Capitalist electronics has to be better than Communist one; no, it's the same make-it-cheap crap, just with better-looking design. From then I got a lot of gifts (friends know that a piece of deceased electronics that I can take apart is a thing to make me happy for the night I play with it), and done a lot of repairs, and seen things I can't call other than atrocious: Constructions that look like *designed* to wear out (ie, toothed metal bar (with sharp edges) against toothed plastic cog - naturally, it ate a groove to the cog and then the VCR refused to spit the casette out), in order to fail and make it easier to their owners to decide to throw them away and buy new ones. Planned obsolescence, the engine of crapitalism.
+<BR>
+
+<BR>
+
+<BR>
 <BR><BR></FONT></td>
 </tr>
 </table>
@@ -601,7 +671,9 @@ Don't lump yourself in with all the other Anonymous Readers out there. You are c
 <BR><BR>All DVI has is a bunch of boxes with stuff in them.  In straight TeX, the boxes get filled out with bitmap characters generated by Metafont.
 <BR><BR>All the more advanced TeX typesetting is done by extending the system by filling boxes with Postscript (using dvips and, e.g., the pstricks package).  More recently, PDFTex is an alternative to standard TeX that bypasses the DVI stage completely, but is still behind in terms of 3rd party package support-- too much stuff has been written for regular TeX + dvips, which PDFTeX just can't use.
 <BR><BR>Frankly, the best distribution format for TeX documents currently is PDF generated from the DVI file by dvips (and not from PDFTeX), which can make use of all the Postscript extensions to TeX.  When PDFTeX matures in term of 3rd party package support, then that should become the best choice; it allows you to generate hypertext PDF documents from LaTeX.
-<BR><BR>Ultimately, however, there's no getting around the fact that LaTeX sucks, and should be replaced by some SGML based solution.  Which AFAIK is the goal of LaTeX3, which is however vaporware.<BR><b>--em<br>
+<BR><BR>Ultimately, however, there's no getting around the fact that LaTeX sucks, and should be replaced by some SGML based solution.  Which AFAIK is the goal of LaTeX3, which is however vaporware.<BR><b>--em<br>
+
+
 Associate Editor, Adequacy.org</b><BR></FONT></td>
 </tr>
 </table>
