@@ -1,0 +1,927 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML><HEAD><TITLE>Articles: The Apollo 11 Guidance Computer</TITLE>
+ </HEAD>
+<BODY bgcolor="#000000" text="#000000" link="#006666" vlink="#000000">
+<CENTER>
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0><TR><TD WIDTH=2>
+
+
+</TD></TR></TABLE>
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0><TR><TD WIDTH=468>
+
+
+</TD></TR></TABLE>
+
+</CENTER>
+<P>
+<TABLE bgcolor="#FFFFFF" cellpadding=0 cellspacing=0 border=0 width="99%" align=center>
+ <TR>
+  <TD valign=top align=left valign=top><A HREF="http://slashdot.org/"><IMG
+   src="http://images.slashdot.org/title.gif" width=275 height=72 border=0
+   alt="Welcome to Slashdot"></A></TD>
+   	<TD><A HREF="http://slashdot.org/search.pl?topic=tv"><IMG
+		SRC="http://images.slashdot.org/topics/topictv.jpg" WIDTH="50" HEIGHT="50"
+		BORDER="0" ALT="Television"></A>
+	</TD>
+
+	<TD><A HREF="http://slashdot.org/search.pl?topic=Privacy"><IMG
+		SRC="http://images.slashdot.org/topics/topicprivacy.gif" WIDTH="71" HEIGHT="53"
+		BORDER="0" ALT="Privacy"></A>
+	</TD>
+
+	<TD><A HREF="http://slashdot.org/search.pl?topic=money"><IMG
+		SRC="http://images.slashdot.org/topics/topicmoney.gif" WIDTH="76" HEIGHT="70"
+		BORDER="0" ALT="The Almighty Buck"></A>
+	</TD>
+
+	<TD><A HREF="http://slashdot.org/search.pl?topic=science"><IMG
+		SRC="http://images.slashdot.org/topics/topicscience.gif" WIDTH="62" HEIGHT="75"
+		BORDER="0" ALT="Science"></A>
+	</TD>
+
+	<TD><A HREF="http://slashdot.org/search.pl?topic=movies"><IMG
+		SRC="http://images.slashdot.org/topics/topicmovies.gif" WIDTH="50" HEIGHT="50"
+		BORDER="0" ALT="Movies"></A>
+	</TD>
+
+
+</TR></TABLE>
+<TABLE width="99%" align=center cellpadding=0 cellspacing=0
+  border=0 bgcolor="#FFFFFF"><TR>
+<TD valign=top rowspan=5><NOBR><FONT size=2><B>
+&nbsp;<A href=/faq/>faq</A> <BR>
+&nbsp;<A href=/code.shtml>code</A> <BR>
+&nbsp;<A href=http://www.osdn.com/>osdn</A> <BR>
+&nbsp;<A href=/awards.shtml>awards</A> <BR>
+&nbsp;<A href=http://osdn.com/privacy.shtml>privacy</A> <BR>
+&nbsp;<A href=http://slashnet.org>slashNET</A> <BR>
+&nbsp;<A href=/search.pl>older stuff</A> <BR>
+&nbsp;<A href=http://cmdrtaco.net>rob's page</A> <BR>
+&nbsp;<A href=/users.pl?op=preferences>preferences</A> <BR>
+&nbsp;<A href=/submit.pl>submit story</A> <BR>
+&nbsp;<A href=/advertising.shtml>advertising</A> <BR>
+&nbsp;<A href=/supporters.shtml>supporters</A> <BR>
+&nbsp;<A href=/pollBooth.pl>past polls</A> <BR>
+&nbsp;<A href=/topics.shtml>topics</A> <BR>
+&nbsp;<A href=/about.shtml>about</A> <BR>
+&nbsp;<A href=/jobs.shtml>jobs</A> <BR>
+&nbsp;<A href=/hof.shtml>hof</A>
+
+</B></FONT></NOBR>
+ <P>
+
+<!-- begin section index block -->
+
+<TABLE border=0 cellpadding=1 cellspacing=0 align=center bgcolor="#CCCCCC"><TR>
+  <TD><FONT size=2 color="#000000"><B> Sections</B></FONT></TD></TR>
+ <TR><TD><TABLE border=0 cellspacing=1 cellpadding=1 bgcolor="#FFFFFF" width="100%"><TR><TD><FONT color="" size=2><NOBR>
+2/16<BR>
+<B><A HREF="http://slashdot.org/index.pl?section=apache">apache</A></B><BR>
+
+2/19 (11)<BR>
+<B><A HREF="http://slashdot.org/index.pl?section=askslashdot">askslashdot</A></B><BR>
+
+1/27<BR>
+<B><A HREF="http://slashdot.org/index.pl?section=awards">awards</A></B><BR>
+
+2/14<BR>
+<B><A HREF="http://slashdot.org/index.pl?section=books">books</A></B><BR>
+
+2/15<BR>
+<B><A HREF="http://slashdot.org/index.pl?section=bsd">bsd</A></B><BR>
+
+2/18<BR>
+<B><A HREF="http://slashdot.org/index.pl?section=features">features</A></B><BR>
+
+2/14<BR>
+<B><A HREF="http://slashdot.org/index.pl?section=interviews">interviews</A></B><BR>
+
+1/9<BR>
+<B><A HREF="http://slashdot.org/index.pl?section=radio">radio</A></B><BR>
+
+2/16<BR>
+<B><A HREF="http://slashdot.org/index.pl?section=science">science</A></B><BR>
+
+2/19 (2)<BR>
+<B><A HREF="http://slashdot.org/index.pl?section=yro">yro</A></B><BR>
+ </NOBR></FONT></TD></TR></TABLE>
+
+<!-- end section index block -->
+
+<TR> <TD><A href=http://www.osdn.com/><FONT size=2 color=#000000><B>OSDN</B></FONT></A></TD></TR><TR><TD><TABLE border=0 cellspacing=1 cellpadding=1 bgcolor=#FFFFFF><TR><TD><FONT color=#000000 size=2><NOBR><A href=http://www.freshmeat.net/>freshmeat</A><BR><A href=http://www.linux.com/>Linux.com</A><BR><A href=http://www.sourceforge.net/>SourceForge</A><BR><A href=http://www.thinkgeek.com/>ThinkGeek</A><BR><A href=http://www.questionexchange.com/>Question<BR>&nbsp;Exchange</A><BR><A href=http://www.newsforge.com/>NewsForge</A><BR><A href=http://slashcode.com/>SlashCode</A><BR></NOBR></FONT></TD></TR></TABLE></TD></TR></TABLE></P>
+ <P><!-- andovermenu --></P>
+</TD><TD valign=top align=left><FONT color="#000000"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="1" CELLPADDING="2">
+	<TR><TD BGCOLOR="#006666" ALIGN="CENTER"><FONT SIZE="2" COLOR="#FFFFFF">'<A HREF="http://slashdot.org/article.pl?sid=01/02/05/1637253&mode=nested"><FONT COLOR="#FFFFFF">The Apollo 11 Guidance Computer</FONT></A>' | <A HREF="http://slashdot.org/users.pl"><FONT COLOR="#FFFFFF">Login/Create an Account</FONT></A>  | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&pid=0"><FONT COLOR="#FFFFFF">Top</FONT></A>
+ | <B>251</B> comments  | <A HREF="http://slashdot.org/search.pl?op=comments&sid=01/02/05/1637253">
+<FONT COLOR="#FFFFFF">Search Discussion</FONT></A></FONT>
+	</TD></TR>
+
+	<TR><TD BGCOLOR="#CCCCCC" ALIGN="CENTER"><FONT SIZE="2">
+		<FORM ACTION="http://slashdot.org/comments.pl">
+		<INPUT TYPE="HIDDEN" NAME="sid" VALUE="01/02/05/1637253">
+		<INPUT TYPE="HIDDEN" NAME="cid" VALUE="51">
+		<INPUT TYPE="HIDDEN" NAME="pid" VALUE="51">
+		<INPUT TYPE="HIDDEN" NAME="startat" VALUE="">
+Threshold: <SELECT NAME="threshold">
+	<OPTION VALUE="-1" SELECTED>-1: 251 comments
+	<OPTION VALUE="0">0: 247 comments
+	<OPTION VALUE="1">1: 154 comments
+	<OPTION VALUE="2">2: 55 comments
+	<OPTION VALUE="3">3: 19 comments
+	<OPTION VALUE="4">4: 7 comments
+	<OPTION VALUE="5">5: 5 comments
+</SELECT>
+<SELECT NAME="mode">
+<OPTION VALUE="nocomment">No Comments</OPTION>
+<OPTION VALUE="thread">Threaded</OPTION>
+<OPTION VALUE="nested" SELECTED>Nested</OPTION>
+<OPTION VALUE="flat">Flat</OPTION>
+</SELECT><SELECT NAME="commentsort">
+<OPTION VALUE="0" SELECTED>Oldest First</OPTION>
+<OPTION VALUE="1">Newest First</OPTION>
+<OPTION VALUE="3">Highest Scores First</OPTION>
+<OPTION VALUE="4">Oldest First (Ignore Threads)</OPTION>
+<OPTION VALUE="5">Newest First (Ignore Threads)</OPTION>
+</SELECT>		<INPUT TYPE="submit" NAME="op" VALUE="Change">
+		<INPUT TYPE="submit" NAME="op" VALUE="Reply">
+	</TD></TR>
+	<TR><TD BGCOLOR="#006666" ALIGN="CENTER">
+		<FONT COLOR="#FFFFFF" SIZE="2">
+<FONT size=1>
+<B>The Fine Print:</B>
+The following comments are owned by whoever posted them.  
+Slashdot is not responsible for what they say.
+</FONT></FONT></FORM></TD></TR><TR><TD bgcolor=cccccc>
+<A name="51"><B>Women are better in space</B></A>  (Score:3, Interesting)<BR>
+by <A HREF="mailto:T_Rone@hotmail.com">Hairy_Potter</A>
+<B><FONT SIZE="2">(T_Rone@hotmail.com)</FONT></B>
+ on Monday February 05, @12:08PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=51">#51</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=Hairy_Potter">User #219096 Info</A>)
+ <A HREF="http://members.xoom.com/T_rone/T_RONE.HTM">http://members.xoom.com/T_rone/T_RONE.HTM</A><BR></TD></TR>
+<TR><TD bgcolor=ffffff>and it only takes a back of the envelope calculations to figure that out.<BR><BR><UL><BR><LI>Women are smaller, and require less food, water and oxygen.<BR><BR>The average woman astronaut, at 100 pounds, is 2/3 the weight of the average male astronaut at 150 pounds. With present day launch costs of 10,000 USD per pound, replacing a 6 person male shuttle crew with 6 females results in a cost savings of $3,000,000 dollars, or 300 extra pounds of equipment and payload. Factor in the reduced fod, water and oxygen requirements, and you might be able to loft 500 extra pounds into orbit.<BR><BR><LI>Women are hardier.<BR><BR>Woman live longer than men, and are healthier in general. When you are talking about expeditions lasting 3+ years (ala Mars), you want the healthiest people you can going.<BR><BR><LI>Women are less aggressive and territorial than men.<BR><BR>When you are talking about being locked in the space the size of 2 cubibles with 5 other people for 3+ years, you want low aggression, non-territorial people there, to avoid infighting and chaos. While Europe is making admirable strides towards breeding a complacent, passive population, for now, the best. most compatible crew would be woman.<BR><BR></UL><BR><BR>However, due to the stranglehold that the caucasian patricarchy has on the space program, don't expect this to be acknowledged, or to even see more than a token amount of women in space. Pity the Israelis don't have a space program, they don't have the resources for false pride and propping up insecure males, the would go for the gusto and have woman like Golda Meir in orbit.<BR><BR>Thanks,<BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=51">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=6">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD>	</TD></TR>
+	<TR><TD BGCOLOR="#CCCCCC" ALIGN="CENTER">
+		&lt;&lt;<A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=40">Re:NASA Astronauts should be Gay</A> by Mr_Icon <FONT SIZE="-1">(Score:1)</FONT> 
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=51">Women are better in space</A> by Hairy_Potter <FONT SIZE="-1">(Score:3)</FONT> 
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=82">Re:NASA Astronauts should be Gay</A> by Anonymous Coward <FONT SIZE="-1">(Score:-1)</FONT> 
+&gt;&gt;
+	</TD></TR>
+	<TR><TD ALIGN="CENTER"><FONT COLOR="#006666"><B>Moderation Totals</B></FONT>:Interesting=2, <B>Total=2</B>.	</TD></TR>
+<TR><TD bgcolor=cccccc>
+<A name="71"><B>Re:Women are better in space</B></A>  (Score:0)<BR>
+by Anonymous Coward on Monday February 05, @12:19PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=71">#71</A>)<BR>
+ </TD></TR>
+<TR><TD bgcolor=ffffff>The average woman weighs 100 lbs and man 150 lbs? Not hardly. Even a healthy woman or man is going to weigh more than that in almost every instance. We're not talking horse jockeys here.
+<P>
+Women do have a slightly longer life expectancy than men, but we're not sending couch potatoes into space, any man or woman chosen to go into space would be rigorously tested and healthy.
+<P>
+Women are less aggressive and territorial?! Have you seen the way most women bicker and become catty either at each other or behind each others backs? I'm not saying all women are like that, but please, to say women are less worse than men about issues of territory or aggression, you arent taking everything into account. Women are the same way, but of course differently.
+<P>
+I think men and women are both well suited for space, and should be sent together.
+<P><BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=71">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=51">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD>
+	<TR><TD>
+
+	<UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="80"><B>You're seeing oppressed behavior in woman</B></A>  (Score:1)<BR>
+by <A HREF="mailto:T_Rone@hotmail.com">Hairy_Potter</A>
+<B><FONT SIZE="2">(T_Rone@hotmail.com)</FONT></B>
+ on Monday February 05, @12:26PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=80">#80</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=Hairy_Potter">User #219096 Info</A>)
+ <A HREF="http://members.xoom.com/T_rone/T_RONE.HTM">http://members.xoom.com/T_rone/T_RONE.HTM</A><BR></TD></TR>
+<TR><TD bgcolor=ffffff><I>Women are less aggressive and territorial?! Have you seen the way most women bicker and become catty either at each other or behind each others backs? I'm not saying all women are like that, but please, to say women are less worse than men about issues of territory or aggression, you arent taking everything into account. Women are the same way, but of course differently. </I><BR><BR>While that is an astute observation, you're probably not aware of the fact that such behavior is common among oppressed people. Think about it, if you were a person who was reminded hourly of your alleged shortcomings and failures and inferiorities, wouldn't you get a little touchy.<BR><BR>Do a little sociological research into more matriarchal societies, the woman are the peacemakers and argument settlers, the men are somewhat surplus. I suggest starting with the matriarchal Native American tribes, the Iroqios perhaps.<BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=80">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=71">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	<UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="96"><B>Re:You're seeing oppressed behavior in woman</B></A>  (Score:0)<BR>
+by Anonymous Coward on Monday February 05, @12:44PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=96">#96</A>)<BR>
+ </TD></TR>
+<TR><TD bgcolor=ffffff>Sorry.  They haven't instituted the 'Oppression Studies' department at my local university yet.<BR><BR>They're still working on getting the full spectrum of 'Hyphenated American Studies' programs going.<BR><BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=96">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=80">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	<UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="100"><B>Did you check the syllabi for vaginal-Americans?</B></A>  (Score:0)<BR>
+by Anonymous Coward on Monday February 05, @12:47PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=100">#100</A>)<BR>
+ </TD></TR>
+<TR><TD bgcolor=ffffff>A lot of courses come under that term, or perhaps womyn's studies, if you can't find the oppressed ones.<BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=100">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=96">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	<UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="125"><B>Re:Did you check the syllabi for vaginal-Americans</B></A>  (Score:0)<BR>
+by Anonymous Coward on Monday February 05, @01:03PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=125">#125</A>)<BR>
+ </TD></TR>
+<TR><TD bgcolor=ffffff>Since its always the women complaining on who they arent treated as well as men, wouldnt the correct term actually be "Penile-Deficient" Americans?<BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=125">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=100">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	<UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="128"><B>Check your old English</B></A>  (Score:0)<BR>
+by Anonymous Coward on Monday February 05, @01:06PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=128">#128</A>)<BR>
+ </TD></TR>
+<TR><TD bgcolor=ffffff>for the definition of wo-man.<BR><BR>From wo, meaning less, lacking, and man, meaning man.<BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=128">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=125">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	<UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="245"><B>Re:Check your old English</B></A>  (Score:1)<BR>
+by <A HREF="mailto:n_sandberg@hotmail.com">the_second_son</A>
+<B><FONT SIZE="2">(n_sandberg@hotmail.com)</FONT></B>
+ on Tuesday February 06, @11:30AM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=245">#245</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=the_second_son">User #311374 Info</A>)
+ </TD></TR>
+<TR><TD bgcolor=ffffff>Woe upon man for the curse that is woeman (read woman). 
+
+And I'm not chicken enough to send it anonymously. <BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=245">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=128">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	</UL>
+
+	</UL>
+
+	</UL>
+
+	</UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="196"><B>Re:You're seeing oppressed behavior in woman</B></A>  (Score:0)<BR>
+by Anonymous Coward on Monday February 05, @04:13PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=196">#196</A>)<BR>
+ </TD></TR>
+<TR><TD bgcolor=ffffff>Unlike our modern society however, the Iroqios understood the need, and advantages to having BOTH sexes in the society.  Much, much different from the feminists that prevail today(i.e. Lets just send women to mars!!!  big fat hairy men suck!!!)<BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=196">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=80">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	<UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="246"><B>Re:You're seeing oppressed behavior in woman</B></A>  (Score:0)<BR>
+by Anonymous Coward on Tuesday February 06, @11:31AM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=246">#246</A>)<BR>
+ </TD></TR>
+<TR><TD bgcolor=ffffff>Lets send all the feminists to mars, that way we don't need to worry about them. <BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=246">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=196">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	</UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="241"><B>Re:You're seeing oppressed behavior in woman</B></A>  (Score:0)<BR>
+by Anonymous Coward on Tuesday February 06, @07:40AM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=241">#241</A>)<BR>
+ </TD></TR>
+<TR><TD bgcolor=ffffff>Maybe so, but that's not the point. You've become defensive and forgotten the issue. Regardless of WHY the behaviour occurs - it occurs.<BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=241">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=80">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	</UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="149"><B>Re:Women are better in space</B></A>  (Score:1)<BR>
+by bellings on Monday February 05, @01:35PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=149">#149</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=bellings">User #137948 Info</A>)
+ </TD></TR>
+<TR><TD bgcolor=ffffff><I>The average woman weighs 100 lbs and man 150 lbs? Not hardly. </I><BR><BR>Yeah, that does seem a little high.  I suppose if we're only sending up really tall people, it's a reasonable weight.  But for average height men, 150 lbs makes you a fatty.  Or an American.  Your choice.<BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=149">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=71">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	<UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="164"><B>Moot point, anyhow</B></A>  (Score:0)<BR>
+by Anonymous Coward on Monday February 05, @01:59PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=164">#164</A>)<BR>
+ </TD></TR>
+<TR><TD bgcolor=ffffff>sence only America puts people in space.<BR><BR>Except for a few russkis.<BR><BR>Can't they find any brave Yuropeens to go up on Ariane?<BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=164">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=149">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE><TABLE><TR><TD bgcolor=cccccc>
+<A name="179"><B>Re:Women are better in space</B></A>  (Score:1)<BR>
+by <A HREF="mailto:lstrunk@myrealbox.sirspamalot.com">Beowulf_Boy</A>
+<B><FONT SIZE="2">(lstrunk@myrealbox.sirspamalot.com)</FONT></B>
+ on Monday February 05, @02:45PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=179">#179</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=Beowulf_Boy">User #239340 Info</A>)
+ </TD></TR>
+<TR><TD bgcolor=ffffff>Dude, I'm about 6'3" and weigh about 190, and I'm right around normal. I used to weigh 250, and wasn't considered to much of a fat-ass.<BR>This Sig will self-destruct in 5, 4, 3, 2, 1....</TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=179">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=149">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	<UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="200"><B>Re:Women are better in space</B></A>  (Score:1)<BR>
+by bellings on Monday February 05, @04:59PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=200">#200</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=bellings">User #137948 Info</A>)
+ </TD></TR>
+<TR><TD bgcolor=ffffff>So you're about an inch shorter, and just a little heavier, than a pro football player like Randy Moss.  Do you bench more than 400 lbs., too?<BR><BR>'Course, 6'3" isn't exactly a "normal" height.<BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=200">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=179">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	<UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="204"><B>Re:Women are better in space</B></A>  (Score:0)<BR>
+by Anonymous Coward on Monday February 05, @05:27PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=204">#204</A>)<BR>
+ </TD></TR>
+<TR><TD bgcolor=ffffff>Randy Moss can't do much more than his own weight - he is a wuss and a whiner.<BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=204">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=200">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE><TABLE><TR><TD bgcolor=cccccc>
+<A name="219"><B>Re:Women are better in space</B></A>  (Score:1)<BR>
+by <A HREF="mailto:lstrunk@myrealbox.sirspamalot.com">Beowulf_Boy</A>
+<B><FONT SIZE="2">(lstrunk@myrealbox.sirspamalot.com)</FONT></B>
+ on Monday February 05, @07:08PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=219">#219</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=Beowulf_Boy">User #239340 Info</A>)
+ </TD></TR>
+<TR><TD bgcolor=ffffff>No, I can only bench about 130lbs<BR>This Sig will self-destruct in 5, 4, 3, 2, 1....</TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=219">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=200">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	</UL>
+
+	</UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="194"><B>Re:Women are better in space</B></A>  (Score:1)<BR>
+by <A HREF="mailto:twrau.p.dueirml@eo">Tower</A>
+<B><FONT SIZE="2">(twrau.p.dueirml@eo)</FONT></B>
+ on Monday February 05, @03:56PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=194">#194</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=Tower">User #37395 Info</A>)
+ </TD></TR>
+<TR><TD bgcolor=ffffff>That depends on your definition of average height...  I consider average height 5'10" - 6'1"  Anyone in that range should be 150+ lbs, unless they have a very small frame.  When I had my growth spurt in high school, I hit 6' and was ~150 pounds with &lt;4% body fat.  I looked like one of the starving people in [pick your favorite starving nation].  Through college, weight lifting, and the wonders of beer, I've filled out to ~180 lbs, and my body fat % is in the 6-8 range...<BR><BR>Of course, if you are in some countries, average height would be closer to 5'5"... in that case, 150 would seem kind of large, wouldn't it? <BR>--<BR>
+"Funk the Dumb Stuff!" - ToP</TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=194">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=149">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	<UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="203"><B>Re:Women are better in space</B></A>  (Score:1)<BR>
+by bellings on Monday February 05, @05:17PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=203">#203</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=bellings">User #137948 Info</A>)
+ </TD></TR>
+<TR><TD bgcolor=ffffff><I>I consider average height 5'10" - 6'1"</I><BR><BR>I consider the average IQ on slashdot to be about 85.  Isn't it nice that in an enlightened age like ours, we can "guess" and "feel" and "consider", instead of taking the time to get off our asses and find the truth?<BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=203">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=194">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	<UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="208"><B>Re:Women are better in space</B></A>  (Score:2)<BR>
+by <A HREF="mailto:twrau.p.dueirml@eo">Tower</A>
+<B><FONT SIZE="2">(twrau.p.dueirml@eo)</FONT></B>
+ on Monday February 05, @05:41PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=208">#208</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=Tower">User #37395 Info</A>)
+ </TD></TR>
+<TR><TD bgcolor=ffffff>IHBT, but...<BR><BR>&gt;I consider the average IQ on slashdot to be about 85. <BR><BR>That very well might be the case now [resisting urge to flame]... the quality of discussion (especially on the science topics) has (obviously) dropped rather dramatically over time.  As for myself, I don't have problems being that limited (the last IQ test had I had was quite some time ago, but I can assure you that it was nearly double the stated number... and of course, you should mention which IQ scale you are using, if you want to get picky).<BR><BR>I was:<BR>A)  Talking about males, not the general population, and<BR>B)  Basing my personal views on the fact that *I* consider anyone substantially shorter than 6' tall 'short' and anyone a few inches taller than that 'tall'.  It is a subjective measure.  If I see a man who is 5'8" I think him 'short'.  If I see a woman who is 5'8", I consider her 'tall'.<BR><BR>While the 50th percentile (truly average) adult male on Earth is 5'9.1"(175.75cm) 172 lb (78.4 kg), that isn't representative of the society that I happen to reside in, where the average male is taller than that, statistically speaking.  It probably has something to do with the large Scandanavian and German populations in the northern midwest (of the U.S.A.).  The average height of the ~16 men in my department at work is about 6'1.5".  Other parts of the country (like my hometown) had higher percentages of people of Italian and Slavic decent, and the average height was lower, but I am just speaking to my present situation.  So take that enlightened age and guess, feel, and consider it all you like.  Absolute truth without context isn't useful in many situations.<BR><BR>(it's Monday, and I have a lot of pent-up anger today... thanks for the release)<BR>--<BR>
+"Funk the Dumb Stuff!" - ToP</TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=208">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=203">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	<UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="247"><B>Re:Women are better in space</B></A>  (Score:0)<BR>
+by Anonymous Coward on Tuesday February 06, @01:19PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=247">#247</A>)<BR>
+ </TD></TR>
+<TR><TD bgcolor=ffffff><I>(it's Monday, and I have a lot of pent-up anger today... thanks for the release)</I><BR><BR>Hey, no problem.  That's what slashdot is for (I think).<BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=247">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=208">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	</UL>
+
+	</UL>
+
+	</UL>
+
+	</UL>
+
+	</UL>
+
+	</TD></TR>
+<TR><TD bgcolor=cccccc>
+<A name="95"><B>Re:Women are better in space</B></A>  (Score:1)<BR>
+by <A HREF="mailto:cavemanf16@yahoo.NOSPAM.com">cavemanf16</A>
+<B><FONT SIZE="2">(cavemanf16@yahoo.NOSPAM.com)</FONT></B>
+ on Monday February 05, @12:41PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=95">#95</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=cavemanf16">User #303184 Info</A>)
+ </TD></TR>
+<TR><TD bgcolor=ffffff>But men are generally stronger than women. An important issue when trying to move around in those very heavy spacesuits and when working on machinery that requires brute strength at times.
+And men don't have periods or other womenly complications that can arise at the most inopportune(sp?) times. Not that I'm against women in a space program, there just needs to be a balance of the sexes for obvious reasons.<BR><P> <I>"Nangi namaj perez, Pray Naked."</I> - 77's</TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=95">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=51">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD>
+	<TR><TD>
+
+	<UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="130"><B>Re:Women are better in space</B></A>  (Score:2)<BR>
+by <A HREF="mailto:kjetikj@astro.uio.no.spam">KjetilK</A>
+<B><FONT SIZE="2">(kjetikj@astro.uio.no.spam)</FONT></B>
+ on Monday February 05, @01:06PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=130">#130</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=KjetilK">User #186133 Info</A>)
+ <A HREF="http://www.astro.uio.no/~kjetikj/">http://www.astro.uio.no/~kjetikj/</A><BR></TD></TR>
+<TR><TD bgcolor=ffffff>I am tempted to ask "what heavy space suits"? I mean, it is not necessary, not even likely, than a Mars mission 15 years from now would require heavy space suits. 
+<P>
+As for the period, lots of women take Depo Provera, one common side-effect is that the period goes away. I'd say that problem is fixed.
+<P>
+Actually, I think an all-women crew on a Mars mission deserves very serious attention. Also, I think it is important that recruitment of female astronauts gets more attention now, so that a high enough number of astronauts gathers enough experience for such a mission. 
+<P>
+Whether we should go at all, is a different issue...<BR><P>"Never attribute to maliciousness that which can adequately be explained by stupidity!"
+</TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=130">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=95">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	<UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="205"><B>Re:Women are better in space</B></A>  (Score:0)<BR>
+by Anonymous Coward on Monday February 05, @05:28PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=205">#205</A>)<BR>
+ </TD></TR>
+<TR><TD bgcolor=ffffff>Yes, and another common side effect from Depo is that the chicks -don't- stop bleeding.
+
+Tho, keep in mind, that having women together in such close proximity, their periods WILL get in sync.  Do you want a crew full of women ALL on the rag to be our first representatives to the aliens?
+
+this could set a bad precedent...<BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=205">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=130">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	<UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="243"><B>Re:Women are better in space</B></A>  (Score:1)<BR>
+by <A HREF="mailto:kjetikj@astro.uio.no.spam">KjetilK</A>
+<B><FONT SIZE="2">(kjetikj@astro.uio.no.spam)</FONT></B>
+ on Tuesday February 06, @09:10AM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=243">#243</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=KjetilK">User #186133 Info</A>)
+ <A HREF="http://www.astro.uio.no/~kjetikj/">http://www.astro.uio.no/~kjetikj/</A><BR></TD></TR>
+<TR><TD bgcolor=ffffff>No problem, just make it one the selection criteria that they don't have the problem.<BR><P>"Never attribute to maliciousness that which can adequately be explained by stupidity!"
+</TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=243">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=205">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	</UL>
+
+	</UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="138"><B>Re:Women are better in space</B></A>  (Score:0, Troll)<BR>
+by <A HREF="mailto:rot13://pbbyivor@unpxreurnira.bet">CoolVibe</A>
+<B><FONT SIZE="2">(rot13://pbbyivor@unpxreurnira.bet)</FONT></B>
+ on Monday February 05, @01:13PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=138">#138</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=CoolVibe">User #11466 Info</A>)
+ <A HREF="http://www.hackerheaven.org">http://www.hackerheaven.org</A><BR></TD></TR>
+<TR><TD bgcolor=ffffff>Heavy spacesuits? ROFL, like that matters in zero gravity *NOT* :)
+<P>
+I myself are for not sending people at all. Just send cameras, robots and other machinery, and only when it is worth while, *then* send people.<BR>-- <BR>
+Slashdot didn't accept your submission? <A HREF="http://www.hackerheaven.org">hackerheaven.org</A> will!<BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=138">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=95">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	<UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="145"><B>Re:Women are better in space</B></A>  (Score:2)<BR>
+by <A HREF="mailto:nathan@f-a-t-r-a-t-b-a-s-t-a-r-d.com">Fat Rat Bastard</A>
+<B><FONT SIZE="2">(nathan@f-a-t-r-a-t-b-a-s-t-a-r-d.com)</FONT></B>
+ on Monday February 05, @01:31PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=145">#145</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=Fat%20Rat%20Bastard">User #170520 Info</A>)
+ <A HREF="http://www.fatratbastard.com">http://www.fatratbastard.com</A><BR></TD></TR>
+<TR><TD bgcolor=ffffff><I>Heavy spacesuits? ROFL, like that matters in zero gravity *NOT* </I> <P>
+Uh... like it matters YES.  *MASS* my friend.  Weightlessness doesn't mean masslessness.  You may not have to "hold" up a heavy suit, but you do have to move it.<P>
+You might want to know your stuff...<BR><P> <I>That's the way the ball bounces, G</I></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=145">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=138">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE><TABLE><TR><TD bgcolor=cccccc>
+<A name="151"><B>Re:Women are better in space</B></A>  (Score:1)<BR>
+by joshsisk on Monday February 05, @01:36PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=151">#151</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=joshsisk">User #161347 Info</A>)
+ </TD></TR>
+<TR><TD bgcolor=ffffff><I>Heavy spacesuits? ROFL, like that matters in zero gravity *NOT* :)</I> <BR> <BR>Having never been in zero gravity myself, it still seems like a bulky spacesuit would increase the amount of mass you would be moving around, thus impairing/slowing your movement... It still requires force to move mass in space, even if the mass has zero weight. (right?)<BR> <BR>Still, I think women should be able to get around in the space suits just fine.<BR> <BR>Josh Sisk<BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=151">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=138">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	</UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="240"><B>Re:Women are better in space</B></A>  (Score:1)<BR>
+by <A HREF="mailto:docSPAMTRAPtechnical@voyager.net">Monte</A>
+<B><FONT SIZE="2">(docSPAMTRAPtechnical@voyager.net)</FONT></B>
+ on Tuesday February 06, @07:24AM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=240">#240</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=Monte">User #48723 Info</A>)
+ </TD></TR>
+<TR><TD bgcolor=ffffff><I>An important issue when trying to move around in those very heavy spacesuits and when working on machinery that requires brute strength at times.</I><BR><BR>If brute strength is an issue then why aren't we sending up 20 year old young bucks instead of thse middle-age PhDs? <BR>--
+ "Ut!" -- Flaming Carrot</TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=240">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=95">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	</UL>
+
+	</TD></TR>
+<TR><TD bgcolor=cccccc>
+<A name="116"><B>Re:Women are better in space</B></A>  (Score:1)<BR>
+by Mnemia on Monday February 05, @12:58PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=116">#116</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=Mnemia">User #218659 Info</A>)
+ </TD></TR>
+<TR><TD bgcolor=ffffff>While I completely agree with most of your points, I have to take issue with the statement that women would be physiologically better suited to a Mars mission. One of the major health risks associated with long term space travel is loss of bone density (eventually leading to osteoporosis). Women are more susceptible to osteoporosis on Earth because they have less bone mass to lose. Same thing applies here.<BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=116">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=51">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD><TR><TD bgcolor=cccccc>
+<A name="121"><B>Re:Women are better in space</B></A>  (Score:1)<BR>
+by <A HREF="mailto:swinge_2000@yahoo.com">swinge</A>
+<B><FONT SIZE="2">(swinge_2000@yahoo.com)</FONT></B>
+ on Monday February 05, @01:01PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=121">#121</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=swinge">User #176850 Info</A>)
+ </TD></TR>
+<TR><TD bgcolor=ffffff>Women are better in space also because during self-gratification--c'mon, obviously important on long flights--hey, now cut it out, we're grownups planning a mission here, we have to talk about this stuff--as I was saying,<UL> <LI>women conserve momentum by not firing a small(ish) rocket and<LI>without the rocket there's no pesky 
+rocket fuel to dispose of</UL>
+<BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=121">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=51">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD><TR><TD bgcolor=cccccc>
+<A name="129"><B>Re:Women are better in space</B></A>  (Score:0)<BR>
+by Anonymous Coward on Monday February 05, @01:06PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=129">#129</A>)<BR>
+ </TD></TR>
+<TR><TD bgcolor=ffffff>And just <I>think</I> of the revenues that could be used to offset the mission costs if the ship was loaded with camera's and live streaming video of the mission was broadcast across the web!
+<P>
+I think I'd be safe in assuming that a space-ship full of lesbians is <I>nearly</I> every /.'ers most sweaty fantasy.<BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=129">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=51">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD><TR><TD bgcolor=cccccc>
+<A name="136"><B>Re:Midgets are better in space</B></A>  (Score:4, Funny)<BR>
+by Sethb on Monday February 05, @01:12PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=136">#136</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=Sethb">User #9355 Info</A>)
+ <A HREF="http://www.sethb.com/">http://www.sethb.com/</A><BR></TD></TR>
+<TR><TD bgcolor=ffffff>Why not send dwarves/midgets?  They're even smaller!  You could build smaller vehicles, smaller spacesuits, pack less food, etc.  <BR><BR>Send Mini-Me to Mars!<BR>---
+<BR>
+When in danger, or in doubt, run in circles, scream and shout.  --Robert A. Heinlein</TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=136">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=51">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD>
+	<TR><TD>
+
+	<UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="171"><B>Re:Midgets are better in space</B></A>  (Score:1)<BR>
+by anon757 on Monday February 05, @02:17PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=171">#171</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=anon757">User #265661 Info</A>)
+ </TD></TR>
+<TR><TD bgcolor=ffffff>I know you're probably joking, but there's probably good reasons why they dont do that, otherwise, mini-me would have been up in orbit long ago, especially during appollo. My guess is that there are other health problems that usually go along with being a midget, and NASA is very strict about sending the healthiest people into orbit. (unless it's a publicity stunt, like John Glen)<BR><I>"I can eat worms! I can eat worms!!!" - Kimmi</I></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=171">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=136">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE><TABLE><TR><TD bgcolor=cccccc>
+<A name="175"><B>¹Better yet: Legless astronauts</B></A>  (Score:1)<BR>
+by <A HREF="mailto:slash@pineight.8m.spam : s/spam/com/">yerricde</A>
+<B><FONT SIZE="2">(slash@pineight.8m.spam : s/spam/com/)</FONT></B>
+ on Monday February 05, @02:27PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=175">#175</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=yerricde">User #125198 Info</A>)
+ <A HREF="http://www.pineight.com/">http://www.pineight.com/</A><BR></TD></TR>
+<TR><TD bgcolor=ffffff><A HREF="http://www.samizdat.com/legless.html">This article</A> describes the advantages that legless astronauts would have in microgravity.<BR><A HREF="http://pineight.com/sd.html">Like Tetris? Like drugs? Ever try combining them?</A> <BR> <BR>Eloi? How precious!</TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=175">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=136">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	</UL>
+
+	</TD></TR>
+<TR><TD bgcolor=cccccc>
+<A name="140"><B>Re:Women are better in space</B></A>  (Score:0)<BR>
+by Anonymous Coward on Monday February 05, @01:17PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=140">#140</A>)<BR>
+ </TD></TR>
+<TR><TD bgcolor=ffffff>
+>Women are less aggressive and territorial than men.
+
+You sure don't know many women, do you?
+<BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=140">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=51">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD><TR><TD bgcolor=cccccc>
+<A name="183"><B>Re:Women are better in space</B></A>  (Score:1)<BR>
+by <A HREF="mailto:fordham@godisdead.com">bobhope</A>
+<B><FONT SIZE="2">(fordham@godisdead.com)</FONT></B>
+ on Monday February 05, @03:10PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=183">#183</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=bobhope">User #118008 Info</A>)
+ <A HREF="http://www.connix.com/~jobrien">http://www.connix.com/~jobrien</A><BR></TD></TR>
+<TR><TD bgcolor=ffffff>Wonder what the aliens will think when they meet 5 women all PMSing at once?<BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=183">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=51">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD>
+	<TR><TD>
+
+	<UL>
+<TABLE><TR><TD bgcolor=cccccc>
+<A name="239"><B>Re:Women are better in space</B></A>  (Score:0)<BR>
+by Anonymous Coward on Tuesday February 06, @07:23AM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=239">#239</A>)<BR>
+ </TD></TR>
+<TR><TD bgcolor=ffffff>Women who live closely together synchronize their menstruation so it would be hazardous to bark orders "Open the hatch!" "Fire Retro Rockets!" when all 5 women astronauts are PMS'ing at the same time.  I can just hear it now,
+
+"Screw you, NASA!!"
+
+"When are we astronauts going to get some respect?!?!"
+
+"We follow all your orders but you NASA people never listen to us !!"
+<BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=239">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=183">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+	</UL>
+
+	</TD></TR>
+<TR><TD bgcolor=cccccc>
+<A name="184"><B>Re:Women are better in space</B></A>  (Score:1)<BR>
+by Dallas Truax on Monday February 05, @03:11PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=184">#184</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=Dallas%20Truax">User #242176 Info</A>)
+ </TD></TR>
+<TR><TD bgcolor=ffffff>The average weight advantage I'll grant you.  But less agressive is pure bunk.  You've obviously never coached a womens sporting team before.  Women are often far worse than men when it comes to getting along for long periods of time.  And they often have a harder time working together.  Women have different problems than men in many respects, but those issues are no less limiting.<BR><BR>And the whole 'women are hardier' thing... talk about a women's agenda item.  WOW! Astronauts are usually in top physical condition, regardless of their sex.  Using statistics gathered from a fat, unhealthy population to apply to a small subset of really healthy individuals might not be fruitfull here. <BR><BR>The decision to fund a mission to Mars, for example, does not come down to the difference in a few million dollars.  That's chump change, really.<BR>So the average difference in weight between males and females is irrelivant in the long run.<BR><BR>Both sexes have members that would be ideally suited for such a mission.<BR>The above comments are opinions of an individual, not of a
+corporation.  This individual is not a spokesperson for any</TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=184">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=51">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD><TR><TD bgcolor=cccccc>
+<A name="195"><B>Re:Women are better in space</B></A>  (Score:0)<BR>
+by Anonymous Coward on Monday February 05, @03:58PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=195">#195</A>)<BR>
+ </TD></TR>
+<TR><TD bgcolor=ffffff>My sister eats more than my father, my brother AND I put together, they have PMS, and from personal experience, can't navigate.... And being able to stop and ask for directions WON'T help them half-way to mars.<BR></TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=195">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=51">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD><TR><TD bgcolor=cccccc>
+<A name="211"><B>Re:Women are better in space</B></A>  (Score:1)<BR>
+by <A HREF="mailto:kanu00@yahoo.NOSPAM.com">mother_superius</A>
+<B><FONT SIZE="2">(kanu00@yahoo.NOSPAM.com)</FONT></B>
+ on Monday February 05, @05:49PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=211">#211</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=mother_superius">User #227373 Info</A>)
+ </TD></TR>
+<TR><TD bgcolor=ffffff><I> ...to avoid infighting and chaos. </I> <P>
+
+"Oh my GOD, she is so stealing my scarf look!" And plus they'd waste 3 hours a day with makeup. <P>
+
+Ok, I'm done with that. But if you think that's unfair, then those male generalizations are unfair, too. I mean, they obviously aren't going to have the wrasslin' beer swilling types of folks, and they aren't going to have those women I described. The current astonauts they have work fine. <P>
+
+saving $3m isn't so much compared to the (guessing) $700m for a shuttle mission. Also, where did you get that 100 lbs average for female astronauts? That sounds kind of low. (And possibly unhealthy depending on their height).<BR><P> <P>First they ignore you.
+Then they laugh at you.
+Then they fight you.
+Then you win.</TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=211">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=51">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD><TR><TD bgcolor=cccccc>
+<A name="226"><B>Re:Women are better in space</B></A>  (Score:1)<BR>
+by SpinalTap on Monday February 05, @09:42PM EST
+(<A href="http://slashdot.org/comments.pl?sid=01/02/05/1637253&cid=226">#226</A>)<BR>
+(<A HREF="http://slashdot.org/users.pl?op=userinfo&nick=SpinalTap">User #311017 Info</A>)
+ </TD></TR>
+<TR><TD bgcolor=ffffff>LOL..women are less territorial than men? And less aggressive? Have you ever been near a woman on a mission to do something? hoo boy..not to mention the territory thing....<BR> "I am never less alone than when alone"
+				--Scipio Africanus</TD></TR>
+
+	<TR><TD><FONT SIZE="2">
+[ <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&op=Reply&threshold=-1&commentsort=0&mode=nested&pid=226">Reply to This</A>
+ | <A HREF="http://slashdot.org/comments.pl?sid=01/02/05/1637253&threshold=-1&commentsort=0&mode=nested&cid=51">Parent</A>
+ ]
+	</FONT></TD></TR>
+<TR><TD></TABLE>
+</FONT></TD>
+         </TR>
+        </TABLE><TABLE cellpadding=0 cellspacing=0 border=0 width="99%"
+                align=center    bgcolor="ffffff">
+            <TR>
+             <TD colspan=4 align=center><IMG src="http://images.slashdot.org/greendot.gif"
+                alt="" width="80%" height=1 hspace=10 vspace=30></TD>
+            </TR><TR>
+             <TD align=center><FONT size=2 face="arial,helvetica">
+  <FORM method=GET action="http://slashdot.org/search.pl">
+         <INPUT type=name name=query value="" width=20 size=20 length=20>
+        <INPUT type=submit value="Search">
+  </FORM>
+  </FONT>
+  </TD>
+  <TD bgcolor="#ffffff" width=25>  &nbsp; </TD>
+  <TD align=center>
+    <FONT size=2 face="arial,helvetica"><I>"A raccoon tangled with a 23,000 volt line today.  The results blacked
+out 1400 homes and, of course, one raccoon."
+		-- Steel City News</I></FONT>
+    </FONT>
+  </TD></TR>
+  <TR><TD colspan=4 align=center>
+  <FONT size=1 color="#006666" face="arial,helvetica">
+
+ All trademarks and copyrights on this
+  page are owned by their respective owners.  Comments
+  are owned by the Poster.
+  The Rest © 1997-2001 <A href="http://www.osdn.com/">OSDN</A>.
+</FONT></CENTER>
+             </TD>
+            </TR>
+           </TABLE>
+        <CENTER>
+          <FONT size=2 color="#006666">
+
+         [ <A href="http://slashdot.org/"><Font color="#ffffff">home</FONT></A> |
+         <A href="http://slashdot.org/awards.shtml"><Font color="#ffffff">awards</FONT></A> |
+         <A href="http://slashdot.org/supporters.shtml"><FONT color="#ffffff">supporters</FONT></A> |
+         <A href="http://CmdrTaco.net"><FONT color="#ffffff">rob's homepage</FONT></A> |
+         <A href="http://slashdot.org/submit.pl"><FONT color="#ffffff">contribute story</FONT></A> |
+         <A href="http://slashdot.org/search.pl"><FONT color="#ffffff">older articles</FONT></A> |
+         <A href="http://www.osdn.com/"><FONT color="#ffffff">OSDN</FONT></A> |
+         <A href="http://slashdot.org/advertising.shtml"><FONT color="#ffffff">advertising</FONT></A> |
+         <A href="http://slashdot.org/pollBooth.pl"><FONT color="#ffffff">past polls</FONT></A> |
+         <A href="http://slashdot.org/about.shtml"><FONT color="#ffffff">about</FONT></A> |
+         <A href="http://slashdot.org/faq/"><FONT color="#ffffff">faq</FONT></A> ]
+           </FONT>
+          </CENTER>
+</BODY>
+</HTML>

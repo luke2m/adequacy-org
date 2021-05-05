@@ -1,0 +1,1467 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+
+<HEAD>
+  <TITLE>Adequacy Interview With Linux Torvalds</TITLE>
+  <META http-equiv=Content-Type content="text/html; charset=windows-1252"><LINK href="../../images/favicon.ico" rel="SHORTCUT ICON">
+  <META name=keywords content="controversy, controversial, controversial news, controversial news site, news for grown-ups, news for grownups">
+
+  <style type="text/css">
+    .a{font: bold x-small Verdana,Arial,Helvetica,sans-serif; text-align: center; background-color: #EBEBEB; vertical-align: top; padding: 2; width: 25%;}
+    .b{font: normal x-small Verdana,Arial,Helvetica,sans-serif; background-color: #EBEBEB; vertical-align: top; padding: 2;}
+    .c{font: normal small Verdana,Arial,Helvetica,sans-serif; color: white; background-color: #464646; vertical-align: top; padding: 2;}
+    .d{font: bold x-small Verdana,Arial,Helvetica,sans-serif; background-color: #EBEBEB; text-align: center;}
+    .q{{font: normal x-small Verdana,Arial,Helvetica,sans-serif; vertical-align: top;}
+  </style>
+</HEAD>
+
+<BODY text="#000000" vLink="#003399" link="#000099" bgColor="#D7D7D7" background="../../images/bg.gif" topMargin=10 marginheight=10 marginwidth=10>
+
+<!-- HEADER START -->
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TR>
+    <TD vAlign="bottom">
+      <a href="../index.html"><img src="../../images/logo.gif" alt="Adequacy front page" hspace=0 height=74 width=241 align=left border=0></a>
+<!--  NAV BANNER START -->
+      <TABLE WIDTH="468" BORDER="0" CELLPADDING="0" CELLSPACING="0" align="right">
+        <TR>
+          <TD bgcolor="#464646"><img src="../../images/dingleberry_top.gif" width="18" height="2"></td>
+        </TR>
+        <TR>
+          <TD bgcolor="#EBEBEB"><table width=468 border=0 cellpadding=0 cellspacing=0>
+            <tr>
+              <td width=20 valign="top"><img src="../../images/dingleberry_bot.gif" width="18" height="18"></td>
+              <td width=112><font face="Arial, Helvetica, sans-serif" size="3"><A href="../stories.date.html"><img src="../../images/arrow.gif" height="11" width="11" border=0> <B>Stories</B></A></font></td>
+              <td width=112><font face="Arial, Helvetica, sans-serif" size="3"><A href="../diaries.date.html"><img src="../../images/arrow.gif" height="11" width="11" border=0> <B>Diaries</B></A></font></td>
+              <td width=112><font face="Arial, Helvetica, sans-serif" size="3"><A href="../polls.html"><img src="../../images/arrow.gif" height="11" width="11" border=0> <B>Polls</B></A></font></td>
+              <td width=112><font face="Arial, Helvetica, sans-serif" size="3"><A href="../users/users.alpha.html"><img src="../../images/arrow.gif" height="11" width="11" border=0> <B>Users</B></A></font></td>
+            </tr>
+          </table></TD>
+        </TR>
+        <TR><FORM method="GET" action="http://www.google.com/search">
+          <TD bgcolor="#EBEBEB"><font size=1><A HREF="http://www.google.com/"><img src="../../images/google.gif" border=0 ALT="Google" align="left" hspace=5 width=117 height=46></A>
+            <img src="../../images/10x10trans.gif" width=10 height=5><BR>
+            <INPUT TYPE="text" name="q" size=24 maxlength=255 value=""> <INPUT type="submit" name="btnG" VALUE="Google Search"><input type="hidden" name="domains" value="www.adequacy.org">
+            <br><input type="radio" name="sitesearch" value=""> Web <input type="radio" name="sitesearch" value="www.adequacy.org" checked> Adequacy.org
+          </font></TD>
+        </FORM></TR>
+        <TR>
+          <TD><img src="../../images/10x10trans.gif" width=10 height=10></TD>
+        </TR>
+      </TABLE>
+<!--  NAV BANNER END -->
+    </TD>
+  </TR>
+  <TR>
+    <TD bgColor=#464646><IMG height=2 width=10 src="../../../images/10x10trans.gif"></TD>
+  </TR>
+  <TR>
+    <TD vAlign="top" align="right">
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TR>
+          <TD align="middle"><font face="verdana, arial, helvetica, sans-serif" size=2 color="#000099">
+            <a href="../index.html">
+            Home
+          </a></font></TD>
+          <TD align="middle"><font face="verdana, arial, helvetica, sans-serif" size=2 color="#000099">
+            <a href="../../special/index.html">
+            About
+          </a></font></TD>
+          <TD align="middle"><font face="verdana, arial, helvetica, sans-serif" size=2 color="#000099">
+            <a href="../stories.topic.html">
+            Topics
+          </a></font></TD>
+          <TD align="middle"><font face="verdana, arial, helvetica, sans-serif" size=2 color="#000099">
+            <a href="../shame.html">
+            Rejects
+          </a></font></TD>
+          <TD align="middle"><font face="verdana, arial, helvetica, sans-serif" size=2 color="#000099">
+            <a href="../abortions.html">
+            Abortions
+          </a></font></TD>
+        </TR>
+      </TABLE>
+    </TD>
+  </TR>
+  <TR>
+    <TD bgColor="#464646" height=2><IMG height=2 src="../../../images/10x10trans.gif" width=10></TD>
+  </TR>
+</TABLE>
+<!-- HEADER END -->
+
+<!-- STORY HEADER START -->
+<table width="100%" cellpadding=0 cellspacing=10 border=0>
+  <tr>
+    <td vAlign="top">
+      <!-- POLL START -->      <!-- POLL END -->
+        <!-- TITLE --><table width="100%" cellpadding=0 cellspacing=0 border=0><tr><td class="c">&nbsp;Adequacy Interview With Linux Torvalds</tr></table><img src="../../images/10x10trans.gif" width=10 height=8><br>
+        <table width="20%" border=0 cellpadding=0 cellspacing=0 align="left">
+          <tr>
+            <TD class="b">
+              <B>&nbsp;Author:</B>
+              <DIV align="center"><a href="../users/3267/index.html">eSolutions</a></DIV>
+              <B>&nbsp;Topic:</B>
+              <DIV align="center"><a href="../index.topic.html#gnulinux">Gnu/Linux</a></DIV>
+              <B>&nbsp;Posted:</B>
+              <DIV align="center">Aug 28, 2002<BR></DIV>
+              <B>&nbsp;Comments:</B>
+              <DIV align="center"><a href="#comments">56</a><BR></DIV>
+            </font></TD>
+            <td><img src="../../images/10x10trans.gif" width=5 height=10></td>
+          </tr>
+        </table>
+        <div class="q">
+		Last night, Linux Torvalds visited me in a dream.  He instructed me to gather interview questions here.  Post your questions below; I will commit the ten highest-rated to memory.  Torvalds will return to my slumber at some future date and answer them.  (How I yearn for Him to again disturb my bed-chamber!)
+<p>
+Below I describe the sleep-vision wherein the Vaulted One appeared.  <i>Athah gabor leolam, Adonai!</i>
+        </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" bgcolor="#464646"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+  </tr>
+</table>
+<!-- STORY HEADER END -->
+
+<!-- STORY BODY START -->
+<table width="100%" cellpadding=0 cellspacing=10 border=0>
+  <tr>
+    <td class="q" vAlign="top">      <!-- SIDE BAR START -->
+      <table width="26%" cellpadding=0 cellspacing=0 border=0 align="right">
+        <tr>
+          <td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+          <td>      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td bgcolor="#464646"><img src="../../images/10x10trans.gif" width="10" height="2"></td>
+              </tr>
+              <tr>
+                <td bgcolor="#EBEBEB">                  <a href="../index.topic.html#gnulinux"><img src="../../images/topics/gnulinux.gif" alt="gnulinux" width="62" height="74" align="left" hspace=0 border=0></a>
+                  <div class="d"><br>More stories about Gnu/Linux                  </div></td>
+              </tr>
+              <tr>
+                <td bgcolor="#EBEBEB">
+                  <table width="100%" border=0 cellpadding=2 cellspacing=0>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2001.7.2.01120.34620.html">Linux Linux Linux -- Part One -- Trying to Be a Hero</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2001.6.27.9131.25814.html">Linux in the corporate world</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2001.9.10.12576.3793.html">Kill Yr Idols - Donald Knuth</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2001.9.30.83943.2736.html">Review: Linux Mandrake 8.1</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2001.10.2.33542.4010.html">Linux Linux Linux Part Two - Crossing the Linux Fault Threshold</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2001.10.23.232417.34.html">Alan Cox Is an Unprofessional Jerk</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2001.12.29.95736.251.html">Richard M. Stallman: Portrait of a Pirate Hacker (in Layman's Terms)</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2002.1.6.154423.1887.html">Where Do You Stand in the GNU World Order?</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2001.9.27.16143.1935.html">Linux: From awk to sed</a></td>
+                    </tr>                  </table>
+                </tr>
+              </td>
+            </table>      <br>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td bgcolor="#464646"><img src="../../images/dingleberry_top.gif" width="18" height="2"></td>
+              </tr>
+              <tr>
+                <td bgcolor="#ebebeb"><img src="../../images/dingleberry_bot.gif" width="18" height="18"><span class="d">More stories by</span></td>
+              </tr>
+              <tr>
+                <td bgcolor="#ebebeb">
+                  <table width="100%" border="0" cellpadding="5" cellspacing="0">
+                    <tr>
+                      <td class="a"><a href="../users/3267/index.html">eSolutions</a><br><img src="../../images/10x10trans.gif" width=10 height=6><br>
+            		<table width="100%" border=0 cellpadding=2 cellspacing=0>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2002.5.9.212514.7274.html">The Dark Side of Cancer</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2002.6.28.21362.3073.html">I Believe in Negroes</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2002.7.4.183710.3582.html">C++ Should Be The Only Programming Language</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2002.7.21.17159.2184.html">Amateur Psychology</a></td>
+                    </tr>                        </table>
+                      </tr>
+                    </td>
+                  </table>
+                </tr>
+              </td>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <!-- SIDE BAR END -->      <div class="q">I settled in my bed-chamber last night after an unusually salty meal of Grape Soda and roasted cock.  At first, my dreams were nothing unusual, consisting of me being chased by monkeys.
+<p>
+My dreams are always like this. I was the game of a young gibbon.  He was off in the distance, and I could kind of see him in my dream-haze, but I could clearly hear him  hooting in his throat.  I ran, Stooge-like, nude save for a bathrobe, but my movements were slow and cumbersome.  The gibbon-hunter ran gracefully, on the other hand, with the weird backwards-elbow gait of a newborn foal still slick with mare-juice.  He gained ground quickly, and shone with an eerie light, as if his very fur phosphoresced.  He was nearly upon me, so I let out a strangled cry and stood still.  My arms were raised and hands hung limp in pathetic defense.  (Every night, this same dream.)
+<p>
+The gibbon galloped up to me and stopped, and drew himself to full height.  He was magnificent!  This young male was like a sinewy god of fur and leather.  He stood about waist-high, and was shivering with fury.  He raised up a fore-arm and snaked out his forefinger, pointing at me.  He extended out the arm, touched the finger to my throat, and screamed.
+<p>
+Then, various scenes flashed before me.  (This part doesn't usually happen; I usually wake up drenched  at this point.)  The scenes were of animals eating their own kind -- chimpanzees feeding on other chimpanzees like lions at a zebra corpse, ants swarm-eating ants, snakes swallowing snakes.
+<p>
+Suddenly, I was in a grey concrete room.  It seemed damp and cold.  Forming a semi-circle around me were kernel developers.  Ted Ts'o was death-white, grotesquely fat for some reason, and had small, dark goggles.  Alan Cox and Stephen Tweedie were conjoined twins in a single leather outfit.  Ralf Flaxa's mouth was held open by a painful-looking iron dentifrice, his teeth chattering mechanically.
+<p>
+Torvalds himself was also dressed in leather.  He had nails or something sticking out of his face and bald, snow-white head.  I felt afraid, but also felt a strange stirring that wasn't quite fear. 
+
+<p> <i>You must do for us, O eSolutions, a granted boon.</i>  (This may sound weird, but when he spoke, it sort of had different levels to it, like a synthesizer.)  
+<p>
+Then Torvalds went into a seizure for a while, screeching and growling with his eyes locked on mine.  When he stopped, he began again:  <i>A boon, yes, for that is your lot.  You must go to the Adequacy, and at the Adequacy gather up the questions, the ten highest-rated, and only those.  So have I spoken onto you. YEEEAAAAAH!</i>  At this point, he had raised up the palms of his hands, and as he screamed, pain shot through me, and I envisioned this huge pile of menstruating corpses on a misty field.  (Weird!)  Then he said, <i>Go now, do our bidding, horrid one, yea, damned one.  We will return for you and your puny questions in time.</i>
+      <br><br></div>
+    </td>
+  </tr>
+</table>
+<!-- STORY BODY END -->
+
+<table width="100%" cellpadding=0 cellspacing=0 border=0 bgcolor="#464646"><tr><td><img src="../../images/10x10trans.gif" width=10 height=2></td></tr></table>
+
+<!-- COMMENT START -->
+<a name="comments"><br>
+        
+        <FORM NAME="rate" ACTION="/" METHOD="POST">
+						<INPUT TYPE="hidden" NAME="sid" VALUE="2002/8/22/19222/9656">
+						<INPUT TYPE="hidden" NAME="op" VALUE="displaystory">
+						<INPUT TYPE="hidden" NAME="pid" VALUE="0"><a name="2"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Uhmmmm...</B> (5.00 / 1</font><font color="#FFFFFF">) (#2</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/3364/index.html">Juan Fernandez</A></b> on Wed Aug 28th, 2002 at 06:59:21 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">given this golden chance I can not think in any question for Mr Linux Torvalds other than this one:<BR>
+How the hell did you get rid of the penguin infestation there in Finland? we are suffering a cockroaches plague here in Spain and maybe your expertise could be of some help. By the way, we're in a urge for humanitarian aid as well, mainly morphine and nurses.<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="5"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> and how did u get ur degrees in an easter egg</B> (none / 0</font><font color="#FFFFFF">) (#5</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Wed Aug 28th, 2002 at 08:45:07 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">penguins habitat the south pole and even if they were livin on the northpole finlands to hot.<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="15"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Too hot?</B> (none / 0</font><font color="#FFFFFF">) (#15</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/760/index.html">First Incision</A></b> on Wed Aug 28th, 2002 at 12:23:26 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">And where did u get ur degree, fine sir?
+<BR><BR>
+I will not argue that penguins are native to the southern hemisphere, but I doubt that Finland is to hot for them. Why, penguins are known to love the warm beaches of <a href="http://dehoog.org/assets../../images/Penguins/penguinpgp.htm">South Africa</a>! 
+<BR><BR>
+I would assume since he called the penguins in Finland an "infestation," the birds are not a native species.<BR>_<br>
+_<br>
+Do you suffer from late-night hacking? Ask your doctor about <a href="http://www.protonixrx.com/PRO_intro.html">Protonix</a>.<BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="31"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Of course they aren't</B> (none / 0</font><font color="#FFFFFF">) (#31</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/3364/index.html">Juan Fernandez</A></b> on Thu Aug 29th, 2002 at 02:51:56 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">"...I would assume since he called the penguins in Finland an "infestation," the birds are not a native species."<BR>
+Everyone knows penguins were introduced in Finland by South Africans. They were refugees escaped from Robben Island, a few miles from Cape Town. This prison was famous because Nelson Mandela was kept there for more than 20 years. The prisoners brought a few penguins with them in the small boat they used to scape, and feeded on their flesh until arrived to Finland. Some of the remaining penguins managed to scape from the boat and breed. Almost every infestation all over the world started this way, see rabbits and rats in Australia, or snakes in New Zealand.<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT></DD></DL></FONT></DD></DL></FONT><a name="3"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> How large is your penis?</B> (0.00 / 1</font><font color="#FFFFFF">) (#3</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Wed Aug 28th, 2002 at 08:06:47 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">And, more importantly, will you put it in my waiting ass?<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT><a name="4"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Colonel Linux, Sir:</B> (none / 0</font><font color="#FFFFFF">) (#4</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/2788/index.html">gzt</A></b> on Wed Aug 28th, 2002 at 08:33:29 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Do you swing?<BR>
+<BR>
+If so, I'll let you be in my dreams if you let me be in yours.<BR>
+<BR>
+Cheers,<BR>
+GZ<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT><a name="6"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Will I get my money back?</B> (none / 0</font><font color="#FFFFFF">) (#6</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/760/index.html">First Incision</A></b> on Wed Aug 28th, 2002 at 09:12:52 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">It is well known that the mere mention of your first name turns a certain Free/GNU <a href="http://www.stallman.org/rms.jpg">hippie</a> into a frothingly rabid <a href="http://www.crynwr.com/~nelson/als98/rms-eat-lead-software-hoarders.jpeg">maniac</a>.
+<BR><BR>
+I have spent many frustrated hours attempting to operate your sub-standard software. These hours came from the very best years of my life! I feel I deserve monetary compensation. Yet the "disclaimer of warranty" in the <a href="http://www.gnu.org/licenses/gpl.html">GNU/General Public License</a> forbids me from suing you.
+<BR><BR>
+Some day, a rage-filled RMS will retroactively change the terms of the GNU/GPL, allowing wronged users like myself to collect all your money and even claim custody of your <a href="http://www.cs.helsinki.fi/u/torvalds/pat.gif">first-born child</a>.
+<BR><BR>
+So my question is, what approximately is your net worth?<BR>_<br>
+_<br>
+Do you suffer from late-night hacking? Ask your doctor about <a href="http://www.protonixrx.com/PRO_intro.html">Protonix</a>.<BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="8"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> You do know how licenses work don't you?</B> (5.00 / 1</font><font color="#FFFFFF">) (#8</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/4129/index.html">detikon</A></b> on Wed Aug 28th, 2002 at 10:46:51 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Even if the license was changed all software released before the change would still be under the old license.<BR>
+<BR>
+The authors could pull it or simply release it under the terms of say the GPL 1.0 or develop a similar license with the same warranty clause.<BR>
+<BR>
+Besides what's so different between that warranty and the one in most commercial licenses?  Take Microsoft for example.  If you install any one of their products and it were to hose your entire world wide corporate network...Microsoft cannot be held responsible.<BR><BR><BR><BR><BR><b>Go away or I will replace you with a very small shell script.</b><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="14"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> +5</B> (none / 0</font><font color="#FFFFFF">) (#14</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/760/index.html">First Incision</A></b> on Wed Aug 28th, 2002 at 12:08:29 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Points awarded for the interesting question in the Subject. I also await Linux's answer to this.<BR>_<br>
+_<br>
+Do you suffer from late-night hacking? Ask your doctor about <a href="http://www.protonixrx.com/PRO_intro.html">Protonix</a>.<BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT></DD></DL></FONT><a name="7"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Here's one</B> (1.00 / 1</font><font color="#FFFFFF">) (#7</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Wed Aug 28th, 2002 at 10:45:25 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">How come after all this time the twits at Adequacy.org still can't spell your name right?<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="9"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> But they are</B> (none / 0</font><font color="#FFFFFF">) (#9</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Wed Aug 28th, 2002 at 10:55:07 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Linux Torvalds is unrelated to Linus Torvalds, the Linux kernel author. Stop making silly assertions.<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="10"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> This is confusing</B> (none / 0</font><font color="#FFFFFF">) (#10</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/5087/index.html">Amitabh Bachan</A></b> on Wed Aug 28th, 2002 at 11:14:49 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Could someone draw up a family tree showing how all these communist/criminal hackers are related? I think the world would be a safer place if we understood the axis of evil behind the free software mask.
+
+o Linus Torvaldes
+o Linux Torvalds
+o Lunix Tovaldis
+o Lunis Stallman
+o etc<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="18"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Duh</B> (5.00 / 1</font><font color="#FFFFFF">) (#18</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/769/index.html">tkatchev</A></b> on Wed Aug 28th, 2002 at 01:14:00 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">They're not real names -- they're secret KGB agent handles. They try to keep the handles similar to each other in order to confuse the linguistically-challenged americans.<BR><em><BR><BR>--<br>Peace and much love...</em><BR><BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="23"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> thx n/t</B> (none / 0</font><font color="#FFFFFF">) (#23</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/5087/index.html">Amitabh Bachan</A></b> on Wed Aug 28th, 2002 at 02:48:23 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT></DD></DL></FONT></DD></DL></FONT><a name="17"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Ummm...</B> (none / 0</font><font color="#FFFFFF">) (#17</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/2612/index.html">The Mad Scientist</A></b> on Wed Aug 28th, 2002 at 12:52:04 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><i>How come after all this time the twits at Adequacy.org still can't spell your name right?</i>
+<BR><BR>
+Maybe because they're twits?<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT><a name="11"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> How do you sleep at night?</B> (5.00 / 2</font><font color="#FFFFFF">) (#11</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/3754/index.html">Icebox</A></b> on Wed Aug 28th, 2002 at 11:43:32 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">It is a widely accepted fact that the creation that bears your name, the Lenux operating system, has been and is most likely currently being used for all sorts of nefarious purposes.<BR><BR>
+
+Given the nature of the thing it is easy to see why Lenux is the choice of those who wish to cause harm to others. Essentially, Lenux can be modified by anyone with time and scant knowledge of the Perl programming language to do just about anything short of anything anyone might call work, or anything approximating being easy to use. The normal security features embedded into proprietary operating systems that prevent things like ping floods, or copyrighted CD ripping, or development of super biotoxins, are either conspicuously absent from your product or can easily be defeated. This is why you read accounts of US soldiers raiding caves in Afghanistan that are full of computers running Lenux. Can't you take a cue from <a href="http://microsoft.com">Microsoft</a>, who removed the World Trade Center from future versions of Flight Simulator?<BR><BR>
+
+To get to my question, what kind of person would unleash upon mankind the ends to his own destruction? You really should stand up and be counted among the terrorists who contributed to the September 11th attack, although that seems to be too little too late considering you should already be in jail for the role you no doubt played in the Columbine tragedy. And before that there was Oklahoma City. And the first bombing of the World Trade Center. Figure in the fact that your operating system no doubt played a role in the planning of the USS Cole bombing, Olympic Park in Atlanta, various Embassy explosions over the past several years, Ruby Ridge, Waco, the downfall of communism, and the general geekiness that grips the geek community. If those people didn't have to spend so much time altering obscure lines in obscure text files just to get their MBR to function properly maybe they wouldn't be so angry.<BR><BR>
+
+Face it, you suck and so does your operating system. You have probably had a hand in the murders of thousands, if not zillions, of people. Terrorists use your code to send the messages about who to kill next. Little kids sit in their rooms at night and cry because they don't have cut and paste, but their Windows using next door neighbor peers do.<BR><BR>
+
+How do you sleep at night?<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="13"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> With pajamas, thank you.</B> (none / 0</font><font color="#FFFFFF">) (#13</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Wed Aug 28th, 2002 at 11:56:24 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">nt<BR>
+<BR>
+Linus<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT><a name="12"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Ask this question for the Love of Marge!</B> (5.00 / 1</font><font color="#FFFFFF">) (#12</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/800/index.html">MessiahWWKD</A></b> on Wed Aug 28th, 2002 at 11:54:13 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Dear Linux Torvalds,
+<BR><BR>When GNU/Linux first came out, it was a smash hit. However, nowaday Linux is barely usable compared to its <a href="http://www.microsoft.com/windows/">commercial counterpart</a>. Is the decline of quality in <a href="http://www.fsf.org">Open Source Software</a> due to the downward spiral of the communist lifestyle, the increased effort by <a href="http://www.apple.com/switch/">Microsoft</a> to maintain its marketshare, or have you simply lost interest in your little hobby?
+<BR><BR>P.S. How can you have a wife, let alone a son, if you're still a virgin?<BR><i>Guardian angel, heavenly friend, walk with me 'til the journey's end.</i><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="25"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> son?</B> (none / 0</font><font color="#FFFFFF">) (#25</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Wed Aug 28th, 2002 at 06:26:26 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">I believe you mean Patricia Miranda Torvalds, his daughter.<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT><a name="16"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> &quot;Open Source&quot; software vs. Capitalism</B> (2.00 / 1</font><font color="#FFFFFF">) (#16</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/1252/index.html">fractured clavicle</A></b> on Wed Aug 28th, 2002 at 12:38:04 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">How do you feel about big computer companies like <a href="http://www.appleofeden.com/">Apple</a> and <a href="http://www.kids-urology.com/micropenis.html">Microsoft</a> taking your admittedly inferior "Open Source" and using it in their products without giving you credit? Are you ashamed that consumers will be using crappy free software when they are paying for code developed with only the highest standards? Are you afraid of being sued for it?<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="26"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> huh what!?!</B> (none / 0</font><font color="#FFFFFF">) (#26</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/4129/index.html">detikon</A></b> on Wed Aug 28th, 2002 at 06:34:38 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><i>How do you feel about big computer companies like Apple and Microsoft taking your admittedly inferior "Open Source" and using it in their products without giving you credit? </i>
+
+<BR><BR>Linus Torvalds didn't create open source.  He is not responsible for it.  So what credit do Apple and Microsoft have to give to Torvalds?
+
+<BR><BR>You can find credit given to the authors all over both open and closed source programs.  Take Internet Explorer for example.  If you click on Help >> About Internet Explorer you get the following:
+
+<blockquote>Based on NCSA Mosaic. NCSA Mosaic(TM); was developed at the National Center for Supercomputing Applications at the University of Illinois at Urbana-Champaign.<br>
+Distributed under a licensing agreement with Spyglass, Inc.</blockquote>
+
+Then some shit about the JPEG group on so on and so on.<BR><BR><BR><BR><BR><b>Go away or I will replace you with a very small shell script.</b><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT><a name="19"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> deer mistir linix</B> (none / 0</font><font color="#FFFFFF">) (#19</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/1075/index.html">KingAzzy</A></b> on Wed Aug 28th, 2002 at 01:16:01 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">I want to live in the hell!  please can I!! i will be your slave and stuff bye!~!!<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="21"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Move to France. (nt)</B> (5.00 / 1</font><font color="#FFFFFF">) (#21</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Wed Aug 28th, 2002 at 01:57:43 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT><a name="20"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> A question:</B> (none / 0</font><font color="#FFFFFF">) (#20</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/2612/index.html">The Mad Scientist</A></b> on Wed Aug 28th, 2002 at 01:56:37 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Why won't you move the core kernel maintenance team to some free country, preferably some without <a href="http://www.soaw.org/new/">terrorist training camps</a> and tendency to apply export control laws to software, retroactively, and at a whim?
+<BR><BR>
+Then the crypto patches and FreeS/WAN could become parts of the kernel itself, instead of having to be supplied as external patches.
+<BR><BR>
+Stop supporting <a href="http://www.whitehouse.gov/">international terrorism</a>!
+<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="27"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Problem with that.</B> (none / 0</font><font color="#FFFFFF">) (#27</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/769/index.html">tkatchev</A></b> on Thu Aug 29th, 2002 at 12:38:42 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">"Free countries", as a rule, don't have enough money to invest it in pipe-dream, pie-in-the-sky amateur projects.<BR><em><BR><BR>--<br>Peace and much love...</em><BR><BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="36"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Pie-in-the-sky...</B> (none / 0</font><font color="#FFFFFF">) (#36</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/2612/index.html">The Mad Scientist</A></b> on Thu Aug 29th, 2002 at 11:35:27 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">...amateur projects, that power millions of rock-stable computers worldwide, that power majority of world webservers, that are good enough for becoming core architecture for supercomputing clusters?
+<BR><BR>
+Sounds good enough for me.
+<BR><BR>
+Besides, for coordination of development you don't need much money. And even if, many things can be done remotely. When we got stuck with globalization, let's hijack its better aspects.<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="38"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Dude,</B> (none / 0</font><font color="#FFFFFF">) (#38</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/769/index.html">tkatchev</A></b> on Fri Aug 30th, 2002 at 09:22:08 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">It's all about the marketing. The professional and technical merits of a particular solution don't matter one whit. Given time and intereset, "supercomputer clusters" could be built using shoe laces and tin cans.
+<BR><BR>
+Although, I'll agree with you on one thing -- the people in charge of Linux have a very keen marketing sense. Given minimal investment and practically no real-world support, they were able to promote Linux from a useless toy project into something that is actually used for solving real problems. (And, most importantly, without improving Linux's quality in the process!) Quite a neat trick -- if I knew how to something like that, I'd be a millionaire already.<BR><em><BR><BR>--<br>Peace and much love...</em><BR><BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="42"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Hey,</B> (none / 0</font><font color="#FFFFFF">) (#42</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/2612/index.html">The Mad Scientist</A></b> on Fri Aug 30th, 2002 at 04:41:25 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><i>It's all about the marketing.</i>
+<BR><BR>
+Explains Microsoft's market share.
+<BR><BR>
+<i>The professional and technical merits of a particular solution don't matter one whit.</i>
+<BR><BR>
+Except if you aren't one of those on its end, or those that are doomed to dance around it and keep it working. Then the marketing becomes irrelevant for you, or serves well as a fuel for your hate towards the particular solution in question.
+<BR><BR>
+<i>Given time and intereset, "supercomputer clusters" could be built using shoe laces and tin cans.</i>
+<BR><BR>
+Russian ones maybe. On the other hand, they would be EMP-hardened. I'd definitely love to see such machine.
+<BR><BR>
+<i>Quite a neat trick -- if I knew how to something like that, I'd be a millionaire already.</i>
+<BR><BR>
+You wouldn't. After Billionaire Bill would notice you, he'd buy you out, or squish you like a cockroach. Because there can be only One.
+<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="43"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Sigh.</B> (none / 0</font><font color="#FFFFFF">) (#43</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/769/index.html">tkatchev</A></b> on Fri Aug 30th, 2002 at 11:43:50 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Look, it's my life-long dream -- to be bought out by somebody. It's all about the money, if you think that anybody does this for love of technology, you're sorely mistaken.
+<BR><BR>
+P.S. Sadly, nobody cares what the server monkeys in the server dungeon do. They are replaceable and irrelevant, anyways. Anything that doesn't bring in an immediate profit is irrelevant.
+<BR><em><BR><BR>--<br>Peace and much love...</em><BR><BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="44"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> now that's just silly willy</B> (none / 0</font><font color="#FFFFFF">) (#44</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/4129/index.html">detikon</A></b> on Sat Aug 31st, 2002 at 01:04:57 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><i>They are replaceable and irrelevant, anyways.</i>
+
+<BR><BR>Sure anyone is replaceable.  Whether you're blue-collar or white-collar you can be replaced.  It's a lot easier though to switch out one MCSE for another.  Finding someone knowledgeable about multiple platforms are large corporate networks is another story.
+
+<BR><BR><i>Anything that doesn't bring in an immediate profit is irrelevant.</i>
+
+<BR><BR>This is exactly why you are not a millionare.  Immediate profits are used to pay for larger more expensive projects where the returns are much higher.<BR><BR><BR><BR><BR><b>Go away or I will replace you with a very small shell script.</b><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="47"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Uh, again.</B> (none / 0</font><font color="#FFFFFF">) (#47</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/769/index.html">tkatchev</A></b> on Sun Sep 1st, 2002 at 11:20:10 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">"Projects" exist to make money, not the other way around.<BR><em><BR><BR>--<br>Peace and much love...</em><BR><BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT></DD></DL></FONT></DD></DL></FONT></DD></DL></FONT></DD></DL></FONT></DD></DL></FONT></DD></DL></FONT><a name="22"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> I have a question...</B> (none / 0</font><font color="#FFFFFF">) (#22</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/3656/index.html">Fon2d2</A></b> on Wed Aug 28th, 2002 at 02:47:35 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Why does Linux suck so bad?<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="28"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> You mean the kernel?</B> (none / 0</font><font color="#FFFFFF">) (#28</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/769/index.html">tkatchev</A></b> on Thu Aug 29th, 2002 at 12:43:26 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">The kernel is so badly written because it's core is composed of 15-year-old, unmaintainable, amateur, undebugged, compiler-dependent code.
+<BR><BR>
+Imagine a hypothetical kernel that was written in Delphi by a graphics designer who was studing in a liberal-arts college and working on the kernel in-between partying.
+<BR><BR>
+Well, Linux is the same, except a little bit different in the details.
+<BR><em><BR><BR>--<br>Peace and much love...</em><BR><BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="30"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> I meant &quot;its&quot; instead of &quot;it's&quot</B> (none / 0</font><font color="#FFFFFF">) (#30</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/769/index.html">tkatchev</A></b> on Thu Aug 29th, 2002 at 12:44:50 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"> <BR><em><BR><BR>--<br>Peace and much love...</em><BR><BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT><a name="33"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> I mean the whole thing</B> (none / 0</font><font color="#FFFFFF">) (#33</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/3656/index.html">Fon2d2</A></b> on Thu Aug 29th, 2002 at 07:25:30 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">I'm not being technical and trying to refer to just the kernel when I say Linux. Nor am I refering solely to the "GNU/Linux" system. I mean everything: the kernel, GNU, X, KDE, GNOME, the distros. All the shit a normal person associates with Linux.<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="56"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> so..</B> (none / 0</font><font color="#FFFFFF">) (#56</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Fri Sep 6th, 2002 at 11:29:53 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">And what about linux sucks?<BR>
+<BR>
+is it the blue screens, crashes, or the ... oh wait.. that's windows..<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT></DD></DL></FONT><a name="29"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Simple</B> (none / 0</font><font color="#FFFFFF">) (#29</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Thu Aug 29th, 2002 at 12:43:32 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">It wasn't designed to suck!<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT><a name="34"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> I have an answer...</B> (none / 0</font><font color="#FFFFFF">) (#34</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/2612/index.html">The Mad Scientist</A></b> on Thu Aug 29th, 2002 at 08:06:54 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Because you were too lazy to read the FUCKING MANUAL!<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT><a name="24"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Does he shave his eyebrow?</B> (none / 0</font><font color="#FFFFFF">) (#24</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Wed Aug 28th, 2002 at 04:47:40 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Or is that a spot of grease on my monitor?<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT><a name="32"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Let's help eSolutions!</B> (none / 0</font><font color="#FFFFFF">) (#32</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Thu Aug 29th, 2002 at 06:49:41 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">You should ask Linux Torvalds how to get rid of those darn monkeys so that you can finally get a good night's sleep.<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="37"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> What would Linux know?</B> (none / 0</font><font color="#FFFFFF">) (#37</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/1268/index.html">because it isnt</A></b> on Fri Aug 30th, 2002 at 12:24:13 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">After all, he's got his own <a href="http://bbspot.com/News/2000/5/MS_Linux_delay.html">monkey infestation</a> to deal with.<BR><i>adequacy.org -- because it isn't</i><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="39"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> But ...</B> (none / 0</font><font color="#FFFFFF">) (#39</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Fri Aug 30th, 2002 at 10:23:26 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">I suspect Torvalds knows a lot about dealing with monkeys:<BR>
+http://www.tuxedo.org/~esr/jargon/html/entry/Infinite-Monkey-Theorem.html<BR>
+http://www.linuxmonkey.com<BR>
+http://www.linuxchimp.com<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT><a name="40"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Legal notice:</B> (5.00 / 1</font><font color="#FFFFFF">) (#40</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/1268/index.html">because it isnt</A></b> on Fri Aug 30th, 2002 at 02:22:20 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Good editors,
+<br><br>
+please retract the above comment of mine. It has been <b>VANDALISED</b> and <b>DISFIGURED</b> by some lowly janitor who erroneously believes it is "funny" to swap the word "Linus" with the word "Linux", and even "funnier" to attribute this moronic idiocy to my good self. My good reputation and standing in this community has been measurably lowered by this deliberate act of sabotage -- I would not wish to be known as a low-life cretin who "humourously" misrepresents people's real names. Please remove the defaced comment within 24 hours or I shall be forced to consult m'learned friends.
+<br><br>
+Yours, etc.<BR><i>adequacy.org -- because it isn't</i><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="41"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Join the club, Ain't</B> (none / 0</font><font color="#FFFFFF">) (#41</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/3267/index.html">eSolutions</A></b> on Fri Aug 30th, 2002 at 03:47:59 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">The same mysterious semi-Thue rewrite occured in the title and body of this article.  The word "roasted" was also magically inserted -- which is okay, I *was* sucking off a burn victim.<BR>
+<BR>
+Keep in mind that they edit your comments because they love you.  It's their way of showing that you're on their mind.  If you just put up with it, eventually, someday, they'll learn the error of their ways.<BR><BR><BR>
+-------
+<i>You wanna play the blind man, go walk with a Shepherd.  But me, my eyes are wide fuckin' open.</i><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT><a name="49"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> You have failed.</B> (none / 0</font><font color="#FFFFFF">) (#49</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Tue Sep 3rd, 2002 at 02:47:40 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">That was not at all interesting, funny, informative, clever, distinguished, or memorable.  In fact, I've already forgotten about it.<BR>
+<BR>
+I hate you so much!<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="50"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Did anyone hug you today?</B> (none / 0</font><font color="#FFFFFF">) (#50</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/1268/index.html">because it isnt</A></b> on Tue Sep 3rd, 2002 at 04:32:34 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">I am <i>officially announcing</i> that the HUG DOCTOR is OPEN FOR BUSINESS.<BR><i>adequacy.org -- because it isn't</i><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="53"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> what about</B> (none / 0</font><font color="#FFFFFF">) (#53</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/909/index.html">nathan</A></b> on Fri Sep 6th, 2002 at 12:25:09 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">The nasty nasty bumsex doctor?<BR><BR>Nathan<BR>--<br><b>Li'l Sis:</b> Yo, that's a real grey area.  Even by my lax standards.<BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="57"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Oh, him?</B> (none / 0</font><font color="#FFFFFF">) (#57</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/1268/index.html">because it isnt</A></b> on Fri Sep 6th, 2002 at 03:49:14 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">He's out today for a round or two of <a href="./2002.1.6.154423.1887.html#26">global domination</a>.<BR><i>adequacy.org -- because it isn't</i><BR></FONT></td></tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT></DD></DL></FONT></DD></DL></FONT></DD></DL></FONT></DD></DL></FONT><a name="35"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Mr Tovraldis, sir,</B> (none / 0</font><font color="#FFFFFF">) (#35</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Thu Aug 29th, 2002 at 01:55:21 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Are you a member of, or have you ever had dealings with, the Communist Party?<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT><a name="45"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> some facts</B> (none / 0</font><font color="#FFFFFF">) (#45</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Sun Sep 1st, 2002 at 07:18:12 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Linux is not terrorism. In fact many governments use it.<BR>
+<BR>
+Fact: The US Government has killed far more civilians than Bin Laden<BR>
+<BR>
+Fact: George Bush I, as head of the CIA, was responsible for funding Osama Bin Laden in the 80's.<BR>
+<BR>
+Fact: The people at Adequacy.org are fuckwits<BR>
+<BR>
+<BR>
+Go on, delete me, censor me. That's what you like to do.<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="46"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> What the Hell?</B> (none / 0</font><font color="#FFFFFF">) (#46</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/800/index.html">MessiahWWKD</A></b> on Sun Sep 1st, 2002 at 09:34:30 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><blockquote>Linux is not terrorism. In fact many governments use it.</blockquote>
+<blockquote>Fact: The US Government has killed far more civilians than Bin Laden</blockquote>
+<BR><BR>As has all other governments that use the GNU/Linus Operating System, which proves that only governments that support terrorism use the GNU/Linus Operating System.
+<blockquote>Fact: George Bush I, as head of the CIA, was responsible for funding Osama Bin Laden in the 80's.</blockquote>
+<BR><BR>The Japanese were part of the allies in World War I, yet you never hear you stupid fucks blame the Allies in World War II for supporting a member of the Dark Axis countries. Get with the times jerk off.
+<BR><BR>You're such an idiot that you should be imprisoned.<BR><i>Guardian angel, heavenly friend, walk with me 'til the journey's end.</i><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="48"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> If I'd have to pick...</B> (none / 0</font><font color="#FFFFFF">) (#48</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/2612/index.html">The Mad Scientist</A></b> on Mon Sep 2nd, 2002 at 12:48:31 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">...I will choose being a terrorist over having to cope with blue screens and unreliable proprietary software.<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="55"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> affirmitive</B> (none / 0</font><font color="#FFFFFF">) (#55</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Fri Sep 6th, 2002 at 11:25:58 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">roger that.<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT></DD></DL></FONT></DD></DL></FONT><a name="51"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Why did you even bother?</B> (none / 0</font><font color="#FFFFFF">) (#51</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Wed Sep 4th, 2002 at 04:11:50 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">
+It seems curious that you would have spent hours of your life "hacking" together a barely functional kernel for a Unix-like operating system. What was the point? The far superior BSD was already floating about, and Microsoft and Apple already had usable and viable alternatives to a Unix rip-off. Even IBM was clever enough to try something different with OS/2. So what were you thinking? Did you think it would help you get girls or something?<BR>
+<BR>
+--sorbals<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="52"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Jealousy</B> (none / 0</font><font color="#FFFFFF">) (#52</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/1268/index.html">because it isnt</A></b> on Thu Sep 5th, 2002 at 03:49:50 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">*BSD has Linux emulation, even Linux kernel module emulation. Why? Because nobody's writing anything for *BSD, it's dying.<BR><i>adequacy.org -- because it isn't</i><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT><a name="54"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> I have but one question for the great LINUS (note</B> (none / 0</font><font color="#FFFFFF">) (#54</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Fri Sep 6th, 2002 at 11:24:12 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Will you have my babies?<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></FORM>
+<!-- COMMENT END -->
+
+<!-- FOOTER START -->
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TR>
+    <TD bgColor="#464646" height=2><IMG height=2 src="10x10trans.gif" width=10></TD>
+  </TR>
+</TABLE>
+<DIV align="center">
+<FONT face="arial,helvetica, sans-serif" color="#303030" size=1><BR>
+All trademarks and copyrights on this page are owned by their respective companies.
+Comments are owned by the Poster. The Rest &#174; 2001, 2002, 2003 Adequacy.org.
+The Adequacy.org name, logo, symbol, and taglines "News for Grown-Ups", "Most 
+Controversial Site on the Internet", "Linux Zealot", and "He just loves Open Source 
+Software", and the RGB color value: D7D7D7 are trademarks of Adequacy.org. No part 
+of this site may be republished or reproduced in whatever form without prior written 
+permission by Adequacy.org and, if and when applicable, prior written permission by 
+the contributing author(s), artist(s), or user(s). Any inquiries are directed to
+<A href="mailto:legal@adequacy.org">legal@adequacy.org</A>.
+</FONT>
+<P>&nbsp;</P>
+</DIV>
+<!-- FOOTER END -->
+
+</BODY>
+</HTML>

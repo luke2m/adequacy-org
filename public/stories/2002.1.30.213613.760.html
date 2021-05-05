@@ -1,0 +1,818 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+
+<HEAD>
+  <TITLE>FreeBSD 4.5 Released!</TITLE>
+  <META http-equiv=Content-Type content="text/html; charset=windows-1252"><LINK href="../../images/favicon.ico" rel="SHORTCUT ICON">
+  <META name=keywords content="controversy, controversial, controversial news, controversial news site, news for grown-ups, news for grownups">
+
+  <style type="text/css">
+    .a{font: bold x-small Verdana,Arial,Helvetica,sans-serif; text-align: center; background-color: #EBEBEB; vertical-align: top; padding: 2; width: 25%;}
+    .b{font: normal x-small Verdana,Arial,Helvetica,sans-serif; background-color: #EBEBEB; vertical-align: top; padding: 2;}
+    .c{font: normal small Verdana,Arial,Helvetica,sans-serif; color: white; background-color: #464646; vertical-align: top; padding: 2;}
+    .d{font: bold x-small Verdana,Arial,Helvetica,sans-serif; background-color: #EBEBEB; text-align: center;}
+    .q{{font: normal x-small Verdana,Arial,Helvetica,sans-serif; vertical-align: top;}
+  </style>
+</HEAD>
+
+<BODY text="#000000" vLink="#003399" link="#000099" bgColor="#D7D7D7" background="../../images/bg.gif" topMargin=10 marginheight=10 marginwidth=10>
+
+<!-- HEADER START -->
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TR>
+    <TD vAlign="bottom">
+      <a href="/index.html"><IMG src="/images/logo.large.gif" alt="Adequacy front page" hspace=0 height=74 width=241 align=left border=0></a>
+      <table align="right" cellpadding="0" cellspacing="2" border="0"><tr>
+      <td align="center" width="240">
+      <script type="text/javascript"><!--
+      google_ad_client = "pub-5815399145648438";
+      google_ad_width = 234;
+      google_ad_height = 60;
+      google_ad_format = "234x60_as";
+      google_ad_type = "text_image";
+      google_ad_channel ="4468224452";
+      //--></script>
+      <script type="text/javascript"
+        src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+	</script>
+      </td>
+<!--  NAV BANNER START -->
+      <td align="right" width="325">
+      <TABLE WIDTH="100%" BORDER="0" CELLPADDING="0" CELLSPACING="0" align="right">
+        <TR>
+          <TD bgcolor="#464646"><img src="/images/dingleberry_top.gif" width="18" height="2"></td>
+        </TR>
+        <TR>
+          <TD bgcolor="#EBEBEB"><table width="100%" border=0 cellpadding=0 cellspacing=0>
+            <tr>
+              <td width=20 valign="top"><img src="/images/dingleberry_bot.gif" width="18" height="18"></td>
+              <td><font face="Arial, Helvetica, sans-serif" size="3"><a href="/public/stories.date.html"><img src="/images/arrow.gif" height="11" width="11" border=0><B>Stories</B></A></font></td>
+              <td><font face="Arial, Helvetica, sans-serif" size="3"><a href="/public/diaries.date.html"><img src="/images/arrow.gif" height="11" width="11" border=0><B>Diaries</B></A></font></td>
+              <td><font face="Arial, Helvetica, sans-serif" size="3"><a href="/public/polls.html"><img src="/images/arrow.gif" height="11" width="11" border=0><B>Polls</B></A></font></td>
+              <td><font face="Arial, Helvetica, sans-serif" size="3"><a href="/public/users/users.alpha.html"><img src="/images/arrow.gif" height="11" width="11" border=0><B>Users</B></A></font></td>
+            </tr>
+          </table></TD>
+        </TR>
+        <TR>
+	
+	<FORM method="GET" action="http://www.google.com/custom" target="_top">
+          <TD bgcolor="#EBEBEB"><font size=1>
+	  <a href="http://www.google.com">
+	  <img src="http://www.google.com/logos/Logo_25wht.gif" border="0" alt="Google" align="left" hspace=5></img></a>
+            <img src="/images/10x10trans.gif" width=10 height=5><BR>
+	    <input type="hidden" name="domains" value="adequacy.org"></input>
+            <INPUT TYPE="text" name="q" size="20" maxlength="255" value=""></input>
+	    <INPUT type="submit" name="sa" VALUE="Search"></input>
+            <br>
+	    <input type="radio" name="sitesearch" value="" checked="checked"></input>
+	    Web <input type="radio" name="sitesearch" value="adequacy.org"></input> Adequacy.org
+          </font>
+	  <input type="hidden" name="client" value="pub-5815399145648438"></input>
+	  <input type="hidden" name="forid" value="1"></input>
+	  <input type="hidden" name="channel" value="9503109761"></input>
+	  <input type="hidden" name="ie" value="ISO-8859-1"></input>
+	  <input type="hidden" name="oe" value="ISO-8859-1"></input>
+	  <input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;"></input>
+	  <input type="hidden" name="hl" value="en"></input>
+	  </TD>
+	  
+        </FORM>
+        <!-- SiteSearch Google end -->
+	</TR>
+        <TR>
+          <TD><img src="/images/10x10trans.gif" width=10 height=10></TD>
+        </TR>
+      </TABLE>
+<!--  NAV BANNER END -->
+    </td></tr></table>
+    </TD>
+  </TR>
+  <TR>
+    <TD bgColor=#464646><IMG height=2 width=10 src="/images/10x10trans.gif"></TD>
+  </TR>
+  <TR>
+    <TD vAlign="top" align="right">
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TR>
+          <TD align="middle"><font face="verdana, arial, helvetica, sans-serif" size=2 color="#000099">
+            <a href="/index.html">
+            Home
+          </a></font></TD>
+          <TD align="middle"><font face="verdana, arial, helvetica, sans-serif" size=2 color="#000099">
+            <a href="/special/index.html">
+            About
+          </a></font></TD>
+          <TD align="middle"><font face="verdana, arial, helvetica, sans-serif" size=2 color="#000099">
+            <a href="/public/stories.topic.html">
+            Topics
+          </a></font></TD>
+          <TD align="middle"><font face="verdana, arial, helvetica, sans-serif" size=2 color="#000099">
+            <a href="/public/shame.html">
+            Rejects
+          </a></font></TD>
+          <TD align="middle"><font face="verdana, arial, helvetica, sans-serif" size=2 color="#000099">
+            <a href="/public/abortions.html">
+            Abortions
+          </a></font></TD>
+        </TR>
+      </TABLE>
+    </TD>
+  </TR>
+    <TR>
+      <TD bgColor="#464646" height=2><IMG height=2 src="/images/10x10trans.gif" width=10></TD>
+    </TR>
+    <tr>                                                                          
+      <td><div align="center" style="font: normal x-small Verdana,Arial,Helvetica,sans-serif; background-color: #EBEBEB; vertical-align: top; padding: 2;"><font color="AA0000">
+	This is an <b>archive</b> site only. It is no longer maintained.
+	You can not post comments. You can not make an account. Your email
+	will not be read. Please read <a href="/special/index.html ">this
+        page</a> if you have questions.</div></font></td>
+    </tr>
+    <tr>
+      <td bgColor="#464646" height=2>
+      <img src="/images/10x10trans.gif" width=10 height=2></td>
+    </tr>
+  </table>
+<script src="http://www.google-analytics.com/urchin.js"
+type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1092656-1";
+urchinTracker();
+</script>
+
+<!-- HEADER END -->
+
+<!-- STORY HEADER START -->
+<table width="100%" cellpadding=0 cellspacing=10 border=0>
+  <tr>
+    <td vAlign="top">
+      <!-- POLL START -->
+<TABLE WIDTH="26%" align="right" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+  <tr>
+    <td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+                      <td bgcolor="#464646"><img src="../../images/dingleberry_top.gif" width="18" height="2"></td>
+  </tr>
+  <tr>
+    <td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+                      <td bgcolor="#EBEBEB"><img src="../../images/dingleberry_bot.gif" width="18" height="18"><font face="Arial, Helvetica, sans-serif" size="3"><B>Poll</B></font></td>
+  </tr>
+  <tr>
+    <td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+                      <td bgcolor="#EBEBEB">
+      <table width="100%" border="0" cellpadding="5" cellspacing="0">
+        <tr>
+          <td>
+            <FONT FACE="arial, Helvetica, Sans-Serif" SIZE=2>
+            <FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">
+	<!-- begin poll form -->
+	<FORM ACTION="/" METHOD="POST">
+    <INPUT TYPE="hidden" NAME="op" VALUE="view_poll">
+    <INPUT TYPE="hidden" NAME="qid" VALUE="1012423510_lvyzweBk">
+    <INPUT type="hidden" name="ispoll" value="1"><b>Favorite Hacker Linux Distro?</b><br>
+		<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0>
+			<TR>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">FreeBSD</FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"> 30% </FONT></TD>
+			</TR>
+			<TR>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">OpenBSD</FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"> 0% </FONT></TD>
+			</TR>
+			<TR>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">NetBSD</FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"> 0% </FONT></TD>
+			</TR>
+			<TR>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Solaris</FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"> 40% </FONT></TD>
+			</TR>
+			<TR>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Hurd</FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"> 20% </FONT></TD>
+			</TR>
+			<TR>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Mandrake</FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"> 10% </FONT></TD>
+			</TR>
+		</TABLE>
+	</FORM>
+	<!-- end poll form -->
+	<P>
+	<FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 ALIGN="center">
+	<TR>
+		
+	<TD COLSPAN="3" ALIGN="center"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Votes: <b>10</b></FONT></TD>
+	
+  
+	</TABLE>
+	</FONT>
+	<!-- end poll content --></FONT>
+            </FONT>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+                      <td bgcolor="#464646"><img src="../../images/10x10trans.gif" width="10" height="2"></td>
+  </tr>
+</table>
+      <!-- POLL END -->
+        <!-- TITLE --><table width="74%" cellpadding=0 cellspacing=0 border=0><tr><td class="c">&nbsp;FreeBSD 4.5 Released!</tr></table><img src="../../images/10x10trans.gif" width=10 height=8><br>
+        <table width="20%" border=0 cellpadding=0 cellspacing=0 align="left">
+          <tr>
+            <TD class="b">
+              <B>&nbsp;Author:</B>
+              <DIV align="center"><a href="../users/2923/index.html">gcsb</a></DIV>
+              <B>&nbsp;Topic:</B>
+              <DIV align="center"><a href="../diaries.date.html">Diaries</a></DIV>
+              <B>&nbsp;Posted:</B>
+              <DIV align="center">Jan 30, 2002<BR></DIV>
+              <B>&nbsp;Comments:</B>
+              <DIV align="center"><a href="#comments">21</a><BR></DIV>
+            </font></TD>
+            <td><img src="../../images/10x10trans.gif" width=5 height=10></td>
+          </tr>
+        </table>
+        <div class="q">
+		I know that many people <a href="../index.html">here</a> use the hacker operating system <a href="http://www.freebsd.org">Linux</a>, so I thought I should let everyone know that there is a new version of the FreeBSD 'distro' available.        </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" bgcolor="#464646"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+  </tr>
+</table>
+<!-- STORY HEADER END -->
+
+<!-- STORY BODY START -->
+<table width="100%" cellpadding=0 cellspacing=10 border=0>
+  <tr>
+    <td class="q" vAlign="top">      <!-- SIDE BAR START -->
+      <table width="26%" cellpadding=0 cellspacing=0 border=0 align="right">
+        <tr>
+          <td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+          <td>      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td bgcolor="#464646"><img src="../../images/10x10trans.gif" width="10" height="2"></td>
+              </tr>
+              <tr>
+                <td bgcolor="#EBEBEB">                  <a href="../diaries.date.html"><img src="../../images/topics/diaries.gif" alt="diaries" width="62" height="74" align="left" hspace=0 border=0></a>
+                  <div class="d"><br>More diaries by gcsb                  </div></td>
+              </tr>
+              <tr>
+                <td bgcolor="#EBEBEB">
+                  <table width="100%" border=0 cellpadding=2 cellspacing=0>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2002.1.18.22150.3496.html">IP-Tokens. The truth revealed!</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2002.2.1.195034.1131.html">A date we can all agree on.</a></td>
+                    </tr>                  </table>
+                </tr>
+              </td>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <!-- SIDE BAR END -->      <div class="q"><a href="http://www.aol.com">Linux</a> is a very popular hackers OS as shown by the sheer number of <a href="http://www.distrowatch.com">'distributions'</a> of it.<br><br>
+A distribution is created when a cabal of hackers get together and decide to make their own custom version of <a href="http://www.redhat.com">Linux</a>. Each so-called 'distro' comes with various tools depending on the interests of the hackers that created it.<br><br>
+Among the more popular hacker distros are <a href="http://www.redhat.com">GNU/RedHat</a>, <a href="http://www.corellinux.com/">Corel</a> and <a href="http://www.mandrakeuser.org">Mandrake</a>.<br><br>
+A much lesser known and slower to evolve distro is <a href="http://www.freebsd.org">FreeBSD</a> whos mascot is Satan. And now they have released a new version.<br><br>
+This distro is just as dangerous as any other version of Linux, if not more so. Included in <a href="http://www.freebsd.org">FreeBSD 4.5</a> are many features a hacker would want. The most lethal of these has to be the inclusion of so-called "SYN-cookies" by default.<br><br>
+TCP/IP uses a three stage handshake modelled after the holy trinity. Rather than being the Father, the Son and the Holy Spirit TCP/IP uses the SYN, the SYN/ACK and the ACK but the end effect is the same.<br><br>
+The SYN-Cookie has been discussed by many <a href="http://www.grc.com">security experts</a> on the Internet and it's horrible consequences are well understood. They are regarded as being much worse than <a href="http://www.grc.com">Raw Sockets</a> by many in the field as they allow hackers to steal your cookie.<br><br>
+The SYN packet normally has nothing to do with cookies, but the GNU/Hippies at <a href="http://www.freebsd.org">FreeBSD</a> have hacked the protocol to include cookie stealing code in the SYN packet. Any hacker using <a href="http://www.freebsd.org">FreeBSD</a> can use this to steal innocent <a href=""http://www.aol.com">Internet</a> users cookie, which often contain credit card numbers.<br><br>
+Therefore, <a href="/">right thinking</a> people should rise up against this evil hacker GNU/Linux tool before the <a href="http://www.aol.com">Internet</a> becomes an even more unsafe place.<br><br>
+      <br><br></div>
+    </td>
+  </tr>
+</table>
+<!-- STORY BODY END -->
+
+<table width="100%" cellpadding=0 cellspacing=0 border=0 bgcolor="#464646"><tr><td><img src="../../images/10x10trans.gif" width=10 height=2></td></tr></table>
+
+<!-- COMMENT START -->
+<a name="comments"><br>
+        
+        <FORM NAME="rate" ACTION="/" METHOD="POST">
+						<INPUT TYPE="hidden" NAME="sid" VALUE="2002/1/30/213613/760">
+						<INPUT TYPE="hidden" NAME="op" VALUE="displaystory">
+						<INPUT TYPE="hidden" NAME="pid" VALUE="0"><a name="1"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Gosh !</B> (none / 0</font><font color="#FFFFFF">) (#1</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Thu Jan 31st, 2002 at 02:33:08 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">There is no Nobel Prize for Ignorance and Stupidity, so stop trying to get it.<BR><BR>FreeBSD is not a Linux distribution, it's another OS.<BR><BR>Remember that our beloved Windows owes much to the FreeBSD's TCP/IP stack.<BR><BR>And don't forget : this site runs on FreeBSD.<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="9"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Actually,</B> (none / 0</font><font color="#FFFFFF">) (#9</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/2923/index.html">gcsb</A></b> on Thu Jan 31st, 2002 at 02:07:59 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">most web sites including this one run on Windows 2000 using IIS. <BR>
+<BR>
+I don't know where you get your information from but if you disassemble the IP-Token you will see this is true.<BR>
+<BR>
+HTH,<BR>
+gcsb<BR>
+<BR>
+<BR>Sig is under re-construction...do not panic.<BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="12"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Hmmm!</B> (none / 0</font><font color="#FFFFFF">) (#12</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Thu Jan 31st, 2002 at 03:48:32 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">I do believe that. Really. One week ago it was running Apache on FreeBSD, and now who nows : only you. Netcraft has been requested not to report any more on Adequacy.org.<br>
+I can't help having some doubt. Anyway, your dear Windows 2000 has quite a chapter of BSD code included (TCP/IP stack). I'm eagerly waiting for your next invention about that. <BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="19"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> what's worse than a hacker?</B> (none / 0</font><font color="#FFFFFF">) (#19</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Thu Jan 31st, 2002 at 07:50:08 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">a hacker that doesnt know his hacking facts. Mind, hacker and facts is an oxymoron, but that isnt the point. The point is that Windows2000 does not borrow from FreeBSD's stack. What I'd like to know is why do you morons keep repeating this lie. Do you have any evidence that Windows2000 contains FreeBSD code? 
+<BR><BR>
+No, you do not.
+<BR><BR>
+The telnet command line client -- not stack --  contains  BSD code, but it isnt FreeBSD code and know one uses it. 
+<BR><BR>
+I dont think you're a hacker. I think you're a script kiddie which, I believe, is the equivalent of "mass murderer" in hacker "society." 
+<BR><BR>
+P.S.: Heh, like a mass murderer is going to know whether FreeBSD is a Linux distribution. FreeBSD *is* the libertarian arm of Open Source Political Software, a.k.a. Linux. <BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="21"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Haaaah!</B> (none / 0</font><font color="#FFFFFF">) (#21</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Fri Feb 1st, 2002 at 02:05:33 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">You have spoken The Very Truth, and I have been convinced of my inanity by your arguments and the facts you presented. The only way out for me is to commit suicide. I have asked my friends, I mean my accomplices, to shoot at me with FreeBSD CDs. <br>May The Lord forgive me. And more important, may the good people of Adequacy pardon me.<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT></DD></DL></FONT><a name="13"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Nice explanation</B> (none / 0</font><font color="#FFFFFF">) (#13</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/3269/index.html">skilm</A></b> on Thu Jan 31st, 2002 at 04:03:19 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">So what is your excuse for you apparent lack of knowledge about computers?
+
+<BR><BR>Were you born retarded, or did you just never learn to read?
+
+ - Pete
+<BR><BR><BR>-------------------------------------------------
+
+<BR><BR>Bread + Egg Nog = Bread Nog<BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT></DD></DL></FONT><a name="2"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> You people are the biggest fucking morons</B> (none / 0</font><font color="#FFFFFF">) (#2</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Thu Jan 31st, 2002 at 03:38:42 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Its quite sad that you think that BSD/Debian/Unix systems are "evil" sadly this website is most likely running a UNIX flavor be it on an apple computer or not. I think its safe to assume that Adequecy.org is also running on the same software you seem to hate so much. Sadly what you dont know is that BSD/UNIX is quite popular, so popular in fact that if you left your house more often to go software shopping you would see endless racks of UNIX flavors in your local best buy compared to the one measly rack of microsloth garbage. Your childlike criminal liberal self-corrupting minds are too weak and feeble if you think all UNIX users are sitting around with AK-47's and wearing motely crue t-shirts while they sysadmin your servers, in fact, i think only your sysadmin would do this because how else would you ponder such an absurd idea in the first place with your "unix zealot" column. Spread the word, Adequacy.org is running a Unix/Linux/BSD/OSX kernal on their servers! oh no, may you burn in the eternal flames that your poor tortured souls devised. and [spelling correction coming up] LINUS TORVALDS is your master is heaven and hell. so deal with it, these words are more powerful then a stupid little DOS attack that someone else may have inflicted upon your poor sysadmin. And if you think that's bad, more then half of the websites you visit on a daily basis are running APACHE on their BSD servers! so yes, you're all going to liberal hell now for visiting these "infected" sites. May god have mercy on your soul, wait i take that back, i hope you burn hahaha.
+
+Reverend D.<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="7"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Troll or satire?</B> (none / 0</font><font color="#FFFFFF">) (#7</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/141/index.html">westgeof</A></b> on Thu Jan 31st, 2002 at 10:11:28 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">I know, sometimes it's not obvious, especially when you post anonymously so we can't judge by previous posting habits.<br><br>
+I do find it quite ironic, though, being called a moron by someone who can't even comprehend the idea of paragraphs and line spacing.   <br><br>
+More people would read your comments if you tried formatting them better, and actually researching the topic.   Throwing blind insults around doesn' help matters either.  For example, here's how your post would look without the poor formatting and factual errors:<br><br>
+-----------------------------------------------------------------------------<br>
+    Its quite sad that you think that BSD/Debian/Unix systems are "evil."  Sadly it is possible, though not known, that this website is running a UNIX flavor, be it on an apple computer or not.  I think its wrong to assume that Adequecy.org is also running on the same software you seem to hate so much. <br>
+  Your minds are weak and feeble if you think <i>all</i> UNIX users are sitting around with AK-47's and wearing motely crue t-shirts while they administer your servers.  In fact, I think only your sysadmin does this because why else would you ponder the idea expressed in your "linux zealot" column.<br> 
+  Some of the websites you visit on a daily basis are running APACHE!  These  are "infected" sites.   Have mercy on your soul.<br>
+ "Reverend" D.<br>
+-----------------------------------------------------------------------------
+<br><br><BR>As a child I wanted to know everything.  Now I miss my ignorance.<BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="8"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> AFAIK</B> (none / 0</font><font color="#FFFFFF">) (#8</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/2923/index.html">gcsb</A></b> on Thu Jan 31st, 2002 at 02:01:35 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Trolling is not allowed here so if that comment was a Troll the editors would have surely deleted it.<BR>
+<BR>
+Therefore it must represent the posters true feelings on the matter. It's just sad that there are so many misinformed people around.<BR>
+<BR>
+Best Regards,<BR>
+gcsb<BR>
+<BR>
+<BR>Sig is under re-construction...do not panic.<BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="14"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> IP Token Again?</B> (none / 0</font><font color="#FFFFFF">) (#14</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/3269/index.html">skilm</A></b> on Thu Jan 31st, 2002 at 04:07:31 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><b>Ok Ok Ok</b>
+
+<BR><BR>Let's assume for a second that you're right about this IP token thing.  I'm a CCNA.  I've never heard anything about it.  I'm not on a token ring network, I use Ethernet and direct PPP connections.
+
+<BR><BR>May I ask how your "IP Token Cloaking" works, and where I might obtain a copy of the program to protect my own machines - which include several Unix servers.
+
+<BR><BR>Thank You
+
+ - Pete
+<BR><BR><BR>-------------------------------------------------
+
+<BR><BR>Bread + Egg Nog = Bread Nog<BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="20"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> nice try, script kiddo</B> (none / 0</font><font color="#FFFFFF">) (#20</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Thu Jan 31st, 2002 at 07:56:02 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><i> I'm a CCNA. [...] May I ask how your "IP Token Cloaking" works, and where I might obtain a copy of the program to protect my own machines...</i>
+<BR><BR>
+Were too smart to fall for your childish attempts at <a href="http://cybercrimes.net/Property/Hacking/Social%20Engineering/PsychSocEng/PsySocEng.html">social e engineering</a>, Mr. "CCNA".<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT></DD></DL></FONT></DD></DL></FONT></DD></DL></FONT><a name="3"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Thank you</B> (none / 0</font><font color="#FFFFFF">) (#3</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/2653/index.html">Yoshi</A></b> on Thu Jan 31st, 2002 at 04:37:23 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">I was wondering about this topic. Thanks for clearing it up for me.<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="5"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> It's me again!!</B> (none / 0</font><font color="#FFFFFF">) (#5</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/3269/index.html">skilm</A></b> on Thu Jan 31st, 2002 at 08:20:30 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Yoshi,
+
+<BR><BR>You wondering about something is about as likely as me shitting gold.
+
+<BR><BR>If you truly wish to be <a href="http://www.freebsd.org">enlightened on a subject</a>, try reading actual news/information and not the drivel that any "I hate all smart people under 25" moron can post on this site.
+
+<BR><BR>Then again, why <i>actually read</i> when you can just <a href="./2002.1.22.19289.2433.html">make stuff up</a>?  It's so much more fun for you overweight, chrristian zealot blockheads.
+<BR><BR><BR>-------------------------------------------------
+
+<BR><BR>Bread + Egg Nog = Bread Nog<BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="10"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> go away</B> (none / 0</font><font color="#FFFFFF">) (#10</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/2653/index.html">Yoshi</A></b> on Thu Jan 31st, 2002 at 03:23:55 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">This perversion of me that you have in following my posting history is getting frightening.<BR><BR>
+<b>If you truly wish to be enlightened on a subject, try reading actual news/information and not the drivel that any "I hate all smart people under 25" moron can post on this site.</b><BR><BR>
+I am very educated in most matters regarding Windows, computer hardware, and especially the legality surrounding the linix program. However, my knowledge of the FreeBSD distro was rather limited. I chose to avoid it until now, knowing that one of the letters in the acronym stood for Berkeley. Despite that, though, it may have potential after all.<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="16"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> A Hacker Unmasked!</B> (none / 0</font><font color="#FFFFFF">) (#16</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/2923/index.html">gcsb</A></b> on Thu Jan 31st, 2002 at 06:16:55 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><i>Despite that, though, it may have potential after all.</i><br><br>
+Potential for you to hack people with? You should be ashamed! It's people such as yourself that give <a href="http://www.aol.com">The Internet</a> such a bad name.<br><br>
+Please refrain from using GNU/OpenSource software or you will find your self becoming a GNU/Hippy like GNU/Stallman.<br><br>
+HTH,<br>
+gcsb.<br><br>
+<BR>Sig is under re-construction...do not panic.<BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="17"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> au contraire</B> (none / 0</font><font color="#FFFFFF">) (#17</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/2653/index.html">Yoshi</A></b> on Thu Jan 31st, 2002 at 06:31:02 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Alas, however, I wouldn't use it. You see, for Capitalists like myself, I wouldn't touch it. I'm not saying it doesn't have potential. So long as it's not backed by the anti-Freedom GNU Virus, I'm willing to give it at least that much credit. Now, mind you, I have no reason to use it, because my <a href="http://www.microsoft.com/WindowsXP">operating system</a> does all I need. No open sauce hacking tools for me.<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="18"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> May I</B> (none / 0</font><font color="#FFFFFF">) (#18</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Thu Jan 31st, 2002 at 07:29:18 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">May I, one more time, kindly remind you, poor soul, that Your Operating System does all you need just because of some open sauce (TCP/IP, Kerberos Authentication...).<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT></DD></DL></FONT></DD></DL></FONT></DD></DL></FONT></DD></DL></FONT><a name="4"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Is my IP-Token at risk?</B> (none / 0</font><font color="#FFFFFF">) (#4</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Thu Jan 31st, 2002 at 05:54:10 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">I'm just wondering if the SYN-Cookie includes IP-Token entrapment devices or such. I have tried to encapsulate my IP-Token with warp shields but these new "cookies" may defeat them.
+
+<br><br>
+I appreciate your description of the "handshake", clearly the Son is the coming together of the Father and the Holy Spirit, but is it related to the "Masonic" handshake?<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT><a name="6"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> I'm surprised</B> (none / 0</font><font color="#FFFFFF">) (#6</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/3269/index.html">skilm</A></b> on Thu Jan 31st, 2002 at 08:27:09 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Eventhough everything in this story is absolutely wrong, I'm still surprised you guys don't think a "<a href="http://www.linuxdoc.org/LDP/solrhe/Securing-Optimizing-Linux-RH-Edition-v1.3/chap5sec56.html">SYN-cookie</a>" isn't some baked good made by <a href="http://www.microsoft.com">Satan</a> to "pollute mankind."<BR><BR><BR>-------------------------------------------------
+
+<BR><BR>Bread + Egg Nog = Bread Nog<BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT><a name="11"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Why are you posting here?</B> (none / 0</font><font color="#FFFFFF">) (#11</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Thu Jan 31st, 2002 at 03:31:40 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Well, so much for this place being "News for Grown-ups". I don't know why anyone bothers to post anything here. The censorship is so rampant and widespread, you'd swear this was the former Soviet Union. My advice to totalandcomplete; don't bother posting here anymore. You're wasting your time with these philistines.<BR><BR>
+<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT><a name="15"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Distros</B> (none / 0</font><font color="#FFFFFF">) (#15</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/3269/index.html">skilm</A></b> on Thu Jan 31st, 2002 at 04:11:51 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">May I point out that in the poll to the right, not one of the OSes listed is a Linux distrobution except for Mandrake.  The rest are not Linux, but it's older cousin Unix.
+
+<BR><BR>Thanks
+
+ - Pete<BR><BR><BR>-------------------------------------------------
+
+<BR><BR>Bread + Egg Nog = Bread Nog<BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></FORM>
+<!-- COMMENT END -->
+
+<!-- FOOTER START -->
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TR>
+    <TD bgColor="#464646" height=2><IMG height=2 src="10x10trans.gif" width=10></TD>
+  </TR>
+</TABLE>
+<DIV align="center">
+<FONT face="arial,helvetica, sans-serif" color="#303030" size=1><BR>
+All trademarks and copyrights on this page are owned by their respective companies.
+Comments are owned by the Poster. The Rest &#174; 2001, 2002, 2003 Adequacy.org.
+The Adequacy.org name, logo, symbol, and taglines "News for Grown-Ups", "Most 
+Controversial Site on the Internet", "Linux Zealot", and "He just loves Open Source 
+Software", and the RGB color value: D7D7D7 are trademarks of Adequacy.org. No part 
+of this site may be republished or reproduced in whatever form without prior written 
+permission by Adequacy.org and, if and when applicable, prior written permission by 
+the contributing author(s), artist(s), or user(s). Any inquiries are directed to
+<A href="mailto:legal@adequacy.org">legal@adequacy.org</A>.
+</FONT>
+<P>&nbsp;</P>
+</DIV>
+<!-- FOOTER END -->
+
+</BODY>
+</HTML>

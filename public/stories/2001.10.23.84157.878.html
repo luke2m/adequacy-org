@@ -1,0 +1,862 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+
+<HEAD>
+  <TITLE>Turning Unix into Windows</TITLE>
+  <META http-equiv=Content-Type content="text/html; charset=windows-1252"><LINK href="../../images/favicon.ico" rel="SHORTCUT ICON">
+  <META name=keywords content="controversy, controversial, controversial news, controversial news site, news for grown-ups, news for grownups">
+
+  <style type="text/css">
+    .a{font: bold x-small Verdana,Arial,Helvetica,sans-serif; text-align: center; background-color: #EBEBEB; vertical-align: top; padding: 2; width: 25%;}
+    .b{font: normal x-small Verdana,Arial,Helvetica,sans-serif; background-color: #EBEBEB; vertical-align: top; padding: 2;}
+    .c{font: normal small Verdana,Arial,Helvetica,sans-serif; color: white; background-color: #464646; vertical-align: top; padding: 2;}
+    .d{font: bold x-small Verdana,Arial,Helvetica,sans-serif; background-color: #EBEBEB; text-align: center;}
+    .q{{font: normal x-small Verdana,Arial,Helvetica,sans-serif; vertical-align: top;}
+  </style>
+</HEAD>
+
+<BODY text="#000000" vLink="#003399" link="#000099" bgColor="#D7D7D7" background="../../images/bg.gif" topMargin=10 marginheight=10 marginwidth=10>
+
+<!-- HEADER START -->
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TR>
+    <TD vAlign="bottom">
+      <a href="/index.html"><IMG src="/images/logo.large.gif" alt="Adequacy front page" hspace=0 height=74 width=241 align=left border=0></a>
+      <table align="right" cellpadding="0" cellspacing="2" border="0"><tr>
+      <td align="center" width="240">
+      <script type="text/javascript"><!--
+      google_ad_client = "pub-5815399145648438";
+      google_ad_width = 234;
+      google_ad_height = 60;
+      google_ad_format = "234x60_as";
+      google_ad_type = "text_image";
+      google_ad_channel ="4468224452";
+      //--></script>
+      <script type="text/javascript"
+        src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+	</script>
+      </td>
+<!--  NAV BANNER START -->
+      <td align="right" width="325">
+      <TABLE WIDTH="100%" BORDER="0" CELLPADDING="0" CELLSPACING="0" align="right">
+        <TR>
+          <TD bgcolor="#464646"><img src="/images/dingleberry_top.gif" width="18" height="2"></td>
+        </TR>
+        <TR>
+          <TD bgcolor="#EBEBEB"><table width="100%" border=0 cellpadding=0 cellspacing=0>
+            <tr>
+              <td width=20 valign="top"><img src="/images/dingleberry_bot.gif" width="18" height="18"></td>
+              <td><font face="Arial, Helvetica, sans-serif" size="3"><a href="/public/stories.date.html"><img src="/images/arrow.gif" height="11" width="11" border=0><B>Stories</B></A></font></td>
+              <td><font face="Arial, Helvetica, sans-serif" size="3"><a href="/public/diaries.date.html"><img src="/images/arrow.gif" height="11" width="11" border=0><B>Diaries</B></A></font></td>
+              <td><font face="Arial, Helvetica, sans-serif" size="3"><a href="/public/polls.html"><img src="/images/arrow.gif" height="11" width="11" border=0><B>Polls</B></A></font></td>
+              <td><font face="Arial, Helvetica, sans-serif" size="3"><a href="/public/users/users.alpha.html"><img src="/images/arrow.gif" height="11" width="11" border=0><B>Users</B></A></font></td>
+            </tr>
+          </table></TD>
+        </TR>
+        <TR>
+	
+	<FORM method="GET" action="http://www.google.com/custom" target="_top">
+          <TD bgcolor="#EBEBEB"><font size=1>
+	  <a href="http://www.google.com">
+	  <img src="http://www.google.com/logos/Logo_25wht.gif" border="0" alt="Google" align="left" hspace=5></img></a>
+            <img src="/images/10x10trans.gif" width=10 height=5><BR>
+	    <input type="hidden" name="domains" value="adequacy.org"></input>
+            <INPUT TYPE="text" name="q" size="20" maxlength="255" value=""></input>
+	    <INPUT type="submit" name="sa" VALUE="Search"></input>
+            <br>
+	    <input type="radio" name="sitesearch" value="" checked="checked"></input>
+	    Web <input type="radio" name="sitesearch" value="adequacy.org"></input> Adequacy.org
+          </font>
+	  <input type="hidden" name="client" value="pub-5815399145648438"></input>
+	  <input type="hidden" name="forid" value="1"></input>
+	  <input type="hidden" name="channel" value="9503109761"></input>
+	  <input type="hidden" name="ie" value="ISO-8859-1"></input>
+	  <input type="hidden" name="oe" value="ISO-8859-1"></input>
+	  <input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;"></input>
+	  <input type="hidden" name="hl" value="en"></input>
+	  </TD>
+	  
+        </FORM>
+        <!-- SiteSearch Google end -->
+	</TR>
+        <TR>
+          <TD><img src="/images/10x10trans.gif" width=10 height=10></TD>
+        </TR>
+      </TABLE>
+<!--  NAV BANNER END -->
+    </td></tr></table>
+    </TD>
+  </TR>
+  <TR>
+    <TD bgColor=#464646><IMG height=2 width=10 src="/images/10x10trans.gif"></TD>
+  </TR>
+  <TR>
+    <TD vAlign="top" align="right">
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TR>
+          <TD align="middle"><font face="verdana, arial, helvetica, sans-serif" size=2 color="#000099">
+            <a href="/index.html">
+            Home
+          </a></font></TD>
+          <TD align="middle"><font face="verdana, arial, helvetica, sans-serif" size=2 color="#000099">
+            <a href="/special/index.html">
+            About
+          </a></font></TD>
+          <TD align="middle"><font face="verdana, arial, helvetica, sans-serif" size=2 color="#000099">
+            <a href="/public/stories.topic.html">
+            Topics
+          </a></font></TD>
+          <TD align="middle"><font face="verdana, arial, helvetica, sans-serif" size=2 color="#000099">
+            <a href="/public/shame.html">
+            Rejects
+          </a></font></TD>
+          <TD align="middle"><font face="verdana, arial, helvetica, sans-serif" size=2 color="#000099">
+            <a href="/public/abortions.html">
+            Abortions
+          </a></font></TD>
+        </TR>
+      </TABLE>
+    </TD>
+  </TR>
+    <TR>
+      <TD bgColor="#464646" height=2><IMG height=2 src="/images/10x10trans.gif" width=10></TD>
+    </TR>
+    <tr>                                                                          
+      <td><div align="center" style="font: normal x-small Verdana,Arial,Helvetica,sans-serif; background-color: #EBEBEB; vertical-align: top; padding: 2;"><font color="AA0000">
+	This is an <b>archive</b> site only. It is no longer maintained.
+	You can not post comments. You can not make an account. Your email
+	will not be read. Please read <a href="/special/index.html ">this
+        page</a> if you have questions.</div></font></td>
+    </tr>
+    <tr>
+      <td bgColor="#464646" height=2>
+      <img src="/images/10x10trans.gif" width=10 height=2></td>
+    </tr>
+  </table>
+<script src="http://www.google-analytics.com/urchin.js"
+type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1092656-1";
+urchinTracker();
+</script>
+
+<!-- HEADER END -->
+
+<!-- STORY HEADER START -->
+<table width="100%" cellpadding=0 cellspacing=10 border=0>
+  <tr>
+    <td vAlign="top">
+      <!-- POLL START -->
+<TABLE WIDTH="26%" align="right" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+  <tr>
+    <td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+                      <td bgcolor="#464646"><img src="../../images/dingleberry_top.gif" width="18" height="2"></td>
+  </tr>
+  <tr>
+    <td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+                      <td bgcolor="#EBEBEB"><img src="../../images/dingleberry_bot.gif" width="18" height="18"><font face="Arial, Helvetica, sans-serif" size="3"><B>Poll</B></font></td>
+  </tr>
+  <tr>
+    <td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+                      <td bgcolor="#EBEBEB">
+      <table width="100%" border="0" cellpadding="5" cellspacing="0">
+        <tr>
+          <td>
+            <FONT FACE="arial, Helvetica, Sans-Serif" SIZE=2>
+            <FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">
+	<!-- begin poll form -->
+	<FORM ACTION="/" METHOD="POST">
+    <INPUT TYPE="hidden" NAME="op" VALUE="view_poll">
+    <INPUT TYPE="hidden" NAME="qid" VALUE="1003825514_mUanVBgh">
+    <INPUT type="hidden" name="ispoll" value="1"><b>What is your favourite wm/de?</b><br>
+		<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0>
+			<TR>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Afterstep</FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"> 0% </FONT></TD>
+			</TR>
+			<TR>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Blackbox</FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"> 10% </FONT></TD>
+			</TR>
+			<TR>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">CDE</FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"> 5% </FONT></TD>
+			</TR>
+			<TR>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Emacs</FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"> 10% </FONT></TD>
+			</TR>
+			<TR>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Enlightenment</FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"> 15% </FONT></TD>
+			</TR>
+			<TR>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">GNOME</FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"> 5% </FONT></TD>
+			</TR>
+			<TR>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">IceWM</FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"> 5% </FONT></TD>
+			</TR>
+			<TR>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">KDE</FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"> 31% </FONT></TD>
+			</TR>
+			<TR>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">WidowMaker</FONT></TD>
+				<TD valign="top"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"> 15% </FONT></TD>
+			</TR>
+		</TABLE>
+	</FORM>
+	<!-- end poll form -->
+	<P>
+	<FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 ALIGN="center">
+	<TR>
+		
+	<TD COLSPAN="3" ALIGN="center"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Votes: <b>19</b></FONT></TD>
+	
+  
+	</TABLE>
+	</FONT>
+	<!-- end poll content --></FONT>
+            </FONT>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+                      <td bgcolor="#464646"><img src="../../images/10x10trans.gif" width="10" height="2"></td>
+  </tr>
+</table>
+      <!-- POLL END -->
+        <!-- TITLE --><table width="74%" cellpadding=0 cellspacing=0 border=0><tr><td class="c">&nbsp;Turning Unix into Windows</tr></table><img src="../../images/10x10trans.gif" width=10 height=8><br>
+        <table width="20%" border=0 cellpadding=0 cellspacing=0 align="left">
+          <tr>
+            <TD class="b">
+              <B>&nbsp;Author:</B>
+              <DIV align="center"><a href="../users/862/index.html">Frithiof</a></DIV>
+              <B>&nbsp;Topic:</B>
+              <DIV align="center"><a href="../diaries.date.html">Diaries</a></DIV>
+              <B>&nbsp;Posted:</B>
+              <DIV align="center">Oct 23, 2001<BR></DIV>
+              <B>&nbsp;Comments:</B>
+              <DIV align="center"><a href="#comments">20</a><BR></DIV>
+            </font></TD>
+            <td><img src="../../images/10x10trans.gif" width=5 height=10></td>
+          </tr>
+        </table>
+        <div class="q">
+		OK, I've been toying around with <a href="http://www.freebsd.org">FreeBSD</a> for a few months now and I like it quite a bit. In fact, I spend more time 'surfing the net' and 'chatting' in Unix than I do in Windows.        </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" bgcolor="#464646"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+  </tr>
+</table>
+<!-- STORY HEADER END -->
+
+<!-- STORY BODY START -->
+<table width="100%" cellpadding=0 cellspacing=10 border=0>
+  <tr>
+    <td class="q" vAlign="top">      <!-- SIDE BAR START -->
+      <table width="26%" cellpadding=0 cellspacing=0 border=0 align="right">
+        <tr>
+          <td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+          <td>      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td bgcolor="#464646"><img src="../../images/10x10trans.gif" width="10" height="2"></td>
+              </tr>
+              <tr>
+                <td bgcolor="#EBEBEB">                  <a href="../diaries.date.html"><img src="../../images/topics/diaries.gif" alt="diaries" width="62" height="74" align="left" hspace=0 border=0></a>
+                  <div class="d"><br>More diaries by Frithiof                  </div></td>
+              </tr>
+              <tr>
+                <td bgcolor="#EBEBEB">
+                  <table width="100%" border=0 cellpadding=2 cellspacing=0>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2001.10.9.1668.38232.html">Crackdown on Terrorism in the USA?</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2001.10.10.172336.28.html">It seems I have a cavity, amongst other things...</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2001.10.11.9757.2726.html">How should I define myself?</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2001.10.12.191149.26.html">Semi-yummy Food</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2001.10.13.112424.25.html">Why I am mentally defective and should be shunned in public</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2001.10.14.9823.3775.html">What is the Matrix?</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2001.10.15.201814.84.html">It happened AGAIN...</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2001.10.16.191058.42.html">The sad truth...</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2001.10.17.164349.29.html">Because I got bored...</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2001.10.18.112932.64.html">I bought a cd today</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2001.10.19.192816.40.html">I hate commies...</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2001.10.26.14733.270.html">Are we safe?</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2001.10.27.203041.36.html">IRC; an internet wasteland?</a></td>
+                    </tr>
+                    <tr>
+                      <td class="b"><img src="../../images/dot.gif" height="5" width="8" vspace="5"></td>
+                      <td class="b"><a href="2001.10.29.14417.217.html">And as another day ends...</a></td>
+                    </tr>                  </table>
+                </tr>
+              </td>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <!-- SIDE BAR END -->      <div class="q">And that is what I feel I need to talk about today. I love Unix, but I also want to be able to use my Win9x/NT/2k programs in it, too. I'd also like to have a win 'classic' gui to move around in.
+<p>
+I've managed to get the <a href="http://www.qvwm.org">gui</a>, as you can see <a href="http://frithiof.0catch.com../../images/unixqvwm1.jpg">here</a>, but as of now, I still can't run my windows programs. I'm thinking that, since I have a dual-boot system with winMe and Fbsd, I should be able to mount my fat32 partitions (heh heh, I said "mount"), install wine, and have it use the APIs in c:\windows\* instead of the incomplete, shoddy APIs that come with it (wine). This is what I'll be doing later today.
+<p>
+If I could have a system with the stability of Unix, the security of Unix, and the software of Windows, all in one nice little package (and at an overall cost of $0, since I can get win98se/me and freebsd for, well, free), I would be so happy. And I may not even have to worry about viruses! <b>Yes</b>
+<p>
+May God have mercy on my soul... :)      <br><br></div>
+    </td>
+  </tr>
+</table>
+<!-- STORY BODY END -->
+
+<table width="100%" cellpadding=0 cellspacing=0 border=0 bgcolor="#464646"><tr><td><img src="../../images/10x10trans.gif" width=10 height=2></td></tr></table>
+
+<!-- COMMENT START -->
+<a name="comments"><br>
+        
+        <FORM NAME="rate" ACTION="/" METHOD="POST">
+						<INPUT TYPE="hidden" NAME="sid" VALUE="2001/10/23/84157/878">
+						<INPUT TYPE="hidden" NAME="op" VALUE="displaystory">
+						<INPUT TYPE="hidden" NAME="pid" VALUE="0"><a name="1"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Suggested edit:</B> (3.00 / 2</font><font color="#FFFFFF">) (#1</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/70/index.html">elenchos</A></b> on Tue Oct 23rd, 2001 at 08:59:21 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">How this diary would look if all referecnces to things best posted on the Sourceforge forums, or some such "hacker" hangout, were removed:
+<BR><BR>
+<b>[...] Windows  </b><br>
+ By Frithiof<br>
+ Posted on Tue Oct 23rd, 2001 at 08:41:57 AM PDT   <BR><BR>
+ 
+  
+OK, I've been toying around [...]in Windows.    
+<BR><BR>
+ 
+
+And that is what I feel I need to talk about today. I love [...] Win9x/NT/2k programs [...]. 
+<BR><BR>
+[...]I have a [...] system with winMe [...] 
+<BR><BR>
+[...]
+<BR><BR>
+May God have mercy on my soul... :) 
+ <BR><BR>
+Amen.
+
+<BR><BR><BR><i>I do, I do, I do<br>--Bikini Kill</i><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="2"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> removing &quot;hackerish&quot; terms</B> (none / 0</font><font color="#FFFFFF">) (#2</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Tue Oct 23rd, 2001 at 09:21:27 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">You forgot to remove "Windows", "Win9x/NT/2k", "programs" and "WinME".<BR>
+Afterall, surely those big bad hackers wrote all those code red, nimda, etc virii?<BR>
+Or are you now saying that hackers only use non-microsoft operating systems and that anyone who codes on windows in their spare time isnt a hacker?<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="3"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Maybe you're on to something.</B> (none / 0</font><font color="#FFFFFF">) (#3</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/70/index.html">elenchos</A></b> on Tue Oct 23rd, 2001 at 09:37:25 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">"How this diary would look if all referecnces to things best posted on the Sourceforge forums, or some such "hacker" hangout, were removed:"
+<BR><BR>
+I think this means that I am showing how the diary would look if everything that really belongs on a "hacker" forum were removed.  
+<BR><BR>
+Why do you think "I love [...] Win9x/NT/2k programs" belongs on a Sourceforge-type forum also?  Perhaps you're right, I dunno, but then you'd be wanting to delete the entire diary.  Well, I guess "May God have mercy on my soul... :)" could stay.  
+<BR><BR>
+Yeah, you're right.  The whole thing should be changed to simply read:  "May God have mercy on my soul... :)"
+<BR><BR>
+Short, simple, and it works.  
+
+<BR><BR><BR><i>I do, I do, I do<br>--Bikini Kill</i><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="5"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> windows hacker forum</B> (none / 0</font><font color="#FFFFFF">) (#5</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Tue Oct 23rd, 2001 at 10:02:53 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">I meant that I think a windows hacker forum counts as a "hacker hangout".  So therefore terms such as "Win9x/NT/2k" should have also been left out.  Are you really saying there are no windows hackers?<BR>
+<BR>
+Anyway, Id prefer it if none of the diary was deleted, Im a freebsd sys admin myself and am rather curious to see what appears here.<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="9"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> I'm saying...</B> (none / 0</font><font color="#FFFFFF">) (#9</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/70/index.html">elenchos</A></b> on Tue Oct 23rd, 2001 at 12:18:55 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">...if that is what you want, why leave Slashdot?<BR><BR><BR><i>I do, I do, I do<br>--Bikini Kill</i><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT></DD></DL></FONT></DD></DL></FONT></DD></DL></FONT><a name="4"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Advice</B> (5.00 / 1</font><font color="#FFFFFF">) (#4</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/98/index.html">twodot72</A></b> on Tue Oct 23rd, 2001 at 09:51:53 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">I'm feeling generous today, so I'm going to give you no less than 2 pieces of advice.
+<BR><BR>
+<ol>
+<li>Pay for your copy in WinX. Pirates always end up with a wooden leg and a hook instead of a hand, neither of which, I imagine, is very convenient.
+<li>Purchase a copy of <a href="http://www.wmware.com">wmware</a>, and you'll be able to run as many operating systems as you like at the same time. A truly remarkable piece of software, if I may say so.
+</ol><BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="7"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> well,</B> (none / 0</font><font color="#FFFFFF">) (#7</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/862/index.html">Frithiof</A></b> on Tue Oct 23rd, 2001 at 12:02:10 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">the unfortunate thing is that I currently have a budget of $40... I don't think I'll really be able to afford a vmware license. Also, I don't really even know if vmware works with FreeBSD (I had a bit of trouble getting it to work with linux kernels &gt; 2.4.9, too). <BR>
+<BR>
+if I could somehow squeeze as much functionality as I can out of the system I already have, I would be a very happy guy.<BR><BR><BR>-Frith<BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT><a name="6"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Four Out Of Five Ain't Bad.</B> (5.00 / 1</font><font color="#FFFFFF">) (#6</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/842/index.html">FifthVandal</A></b> on Tue Oct 23rd, 2001 at 11:59:02 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><cite>If I could have a system with the stability of Unix, the security of Unix, and the software of Windows, all in one nice little package (and at an overall cost of $0</cite>
+<BR><BR>Well in just two days time, you will be able to get the first four of those in the shape of Windows XP.
+<BR><BR>Admittedly, the overall cost will be a little more than your stated budget, but hey - like Perdida said, you'll be doing your patriotic duty too!
+
+<BR>---
+I was the fifth vandal on the grassy knoll!<BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="8"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> I've actually been quite tempted ...</B> (none / 0</font><font color="#FFFFFF">) (#8</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/862/index.html">Frithiof</A></b> on Tue Oct 23rd, 2001 at 12:09:11 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">I've actually been quite tempted to get Win XP... if it is, as they say, based on Win 2k, it might actually be what I'm looking for.<BR>
+<BR>
+Of course, the thought of having to install virus scanners kinda gives me a limp noodle, but overall, it seems like a rather nice OS. I've grown quite accustomed to patching and updating my system, so hopefully, I won't have to worry too much about being struck down by Code Red or Melissa, or any of those other net abominations. <BR><BR><BR>-Frith<BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="17"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Analisys of OSes</B> (none / 0</font><font color="#FFFFFF">) (#17</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Wed Oct 31st, 2001 at 04:00:28 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">Unix = still kicking ass<BR>
+Minix = UnixLite for PCs<BR>
+Linux = what Minix shoud have been<BR>
+BeOS (POS) = overly-streamlined NetBSD, users claim it's not<BR>
+AmigaOS/Amiga = making a come back<BR>
+Windows NT4 = fairly easy administration, if it ain't broke...<BR>
+AtheOS = pretty nice, but may be side lined by Linux and OSX<BR>
+DOS = a tweaked QDOS (a sloppily backwards engineered CP/M)<BR>
+CP/M = What PC Users WOULD BE using if not for MS<BR>
+MacOSX = FreeBSD for the desktop<BR>
+Windows 95 = incomplete<BR>
+Windows 98 = what 95 should have been<BR>
+Windows 98SE = what 98 should have been, & good gaming OS<BR>
+Windows Me = great excuse to upgrade<BR>
+Windows 2000 = fairly nice, slight learning curve for NT admins<BR>
+Windows XP = MS self promotionalizing BLOATWARE that treats you like an idiot<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="20"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> :)  great stuff</B> (none / 0</font><font color="#FFFFFF">) (#20</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/1210/index.html">NAWL</A></b> on Thu Nov 15th, 2001 at 04:51:21 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">This has got to the most intelligent and funniest thing I have read on this site EVER.  Loving it.  Keep it up.<BR><BR><BR><BR><BR><i>Hey, if you consider the fifth grade your senior year, what else can you be besides a pompous jackass?</i>
+
+<BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT><a name="21"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> :)  great stuff</B> (none / 0</font><font color="#FFFFFF">) (#21</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/1210/index.html">NAWL</A></b> on Thu Nov 15th, 2001 at 04:51:51 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">This has got to the most intelligent and funniest thing I have read on this site EVER.  Loving it.  Keep it up.<BR><BR><BR><BR><BR><i>Hey, if you consider the fifth grade your senior year, what else can you be besides a pompous jackass?</i>
+
+<BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT></DD></DL></FONT></DD></DL></FONT><a name="10"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> One word</B> (5.00 / 1</font><font color="#FFFFFF">) (#10</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/730/index.html">Starship Trooper</A></b> on Tue Oct 23rd, 2001 at 01:44:42 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><a href="http://sources.redhat.com/cygwin/">Cygwin32.</a> On Windows 2000, it's all the Unix I need. Other people have suggested Windows XP, but I personally can't recommend it for all the various cliché reasons. Fisher-Price-inspired GUI, draconian product activation, constant harassment to use Passport and MSN, etc. If you've got a copy of Windows 2000, I would suggest getting the aforementioned Cygwin and buying a copy of Starnet's excellent <a href="http://www.starnet.com/products/">X-Win32</a> server for all the Unix you could ever want.<BR>---<br><i>A seasoned witch could call you from the depths of your disgrace, and rearrange your liver to the solid mental grace</i><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT><a name="11"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> your screenshot doesn't work.</B> (1.00 / 1</font><font color="#FFFFFF">) (#11</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/938/index.html">linuxrulez</A></b> on Wed Oct 24th, 2001 at 10:58:51 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">This<br>
+<blockquote>http://frithiof.0catch.com../../images/unixqvwm1.jpg</blockquote>
+gives an error message:
+
+<blockquote><i>We have detected a hotlinking error. Hotlinking is when you link to images or NON html files on 0catch.com from another host. </i></blockquote>
+
+Nice host.  Impressive work from an &quot;HTML master,&quot; as your web page says, too.
+<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="13"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> warning...</B> (5.00 / 1</font><font color="#FFFFFF">) (#13</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/862/index.html">Frithiof</A></b> on Wed Oct 24th, 2001 at 11:34:31 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">don't view this at work<BR><BR><BR>-Frith<BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="14"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> well...</B> (none / 0</font><font color="#FFFFFF">) (#14</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/862/index.html">Frithiof</A></b> on Wed Oct 24th, 2001 at 12:58:55 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">just take my word for it that something was there. <BR>
+<BR>
+I'm not gonna bother putting up the link again (or any similar pics)...<BR><BR><BR>-Frith<BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT></DD></DL></FONT><a name="15"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> You Can Have it All</B> (5.00 / 1</font><font color="#FFFFFF">) (#15</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/847/index.html">egg troll</A></b> on Wed Oct 24th, 2001 at 03:48:42 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><i>If I could have a system with the stability of Unix, the security of Unix, and the software of Windows, all in one nice little package...</i><br>
+You want OSX then. Mmmmmmm....OSX.<BR><BR><BR>
+<i>Posting</i> for the love of the baby Jesus....<BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="18"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> Here's another solution</B> (none / 0</font><font color="#FFFFFF">) (#18</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b>Anonymous Reader</b> on Tue Nov 13th, 2001 at 05:07:01 AM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">While you could get MacOSX which is comprised of FreeBSD and Mach 3.0 to form Darwin, you could also download FreeBSD for the desktop.<BR>
+<BR>
+Hell you could also download DarwinOS for the PPC or x86 platforms if you wanted.  Of course you wouldn't get the pretty GUI.<BR><BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><DL><DT></DT><DD><a name="19"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> desktop BSD</B> (none / 0</font><font color="#FFFFFF">) (#19</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/1210/index.html">NAWL</A></b> on Thu Nov 15th, 2001 at 04:49:16 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">I believe you mean FreeBSD desktop.  Why screw around with a crappy half-assed GUI like the one the aurthor seems to like?<BR><BR><BR><BR><BR><i>Hey, if you consider the fifth grade your senior year, what else can you be besides a pompous jackass?</i>
+
+<BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></DD></DL></FONT></DD></DL></FONT><a name="16"></a>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#464646"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2"><font color="#FFFFFF"><B> /. commentary</B> (none / 0</font><font color="#FFFFFF">) (#16</font></A><font color="#FFFFFF">)</font></FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">by <b><A href="../users/862/index.html">Frithiof</A></b> on Wed Oct 24th, 2001 at 06:20:07 PM PST </FONT></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=1></td>
+<td bgcolor="#D7D7D7"><img src="../../images/10x10trans.gif" width=10 height=1></td>
+</tr>
+<tr>
+<td><img src="../../images/10x10trans.gif" width=10 height=10></td>
+<td bgcolor="#EBEBEB"><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">I just found <a href="http://slashdot.org/article.pl?sid=01/10/24/1621252">this</a>.
+<BR><BR>
+it's always nice to see people debate the merits of Unix and Windows, respectively, even if they don't know the difference between Linux and Unix. :)<BR><BR><BR>-Frith<BR></FONT></td>
+</tr>
+</table>
+<BR><FONT FACE="Arial, Helvetica, sans-serif" SIZE="2">&nbsp;</FONT></FORM>
+<!-- COMMENT END -->
+
+<!-- FOOTER START -->
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TR>
+    <TD bgColor="#464646" height=2><IMG height=2 src="10x10trans.gif" width=10></TD>
+  </TR>
+</TABLE>
+<DIV align="center">
+<FONT face="arial,helvetica, sans-serif" color="#303030" size=1><BR>
+All trademarks and copyrights on this page are owned by their respective companies.
+Comments are owned by the Poster. The Rest &#174; 2001, 2002, 2003 Adequacy.org.
+The Adequacy.org name, logo, symbol, and taglines "News for Grown-Ups", "Most 
+Controversial Site on the Internet", "Linux Zealot", and "He just loves Open Source 
+Software", and the RGB color value: D7D7D7 are trademarks of Adequacy.org. No part 
+of this site may be republished or reproduced in whatever form without prior written 
+permission by Adequacy.org and, if and when applicable, prior written permission by 
+the contributing author(s), artist(s), or user(s). Any inquiries are directed to
+<A href="mailto:legal@adequacy.org">legal@adequacy.org</A>.
+</FONT>
+<P>&nbsp;</P>
+</DIV>
+<!-- FOOTER END -->
+
+</BODY>
+</HTML>
